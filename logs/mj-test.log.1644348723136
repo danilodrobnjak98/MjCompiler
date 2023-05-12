@@ -1,0 +1,279 @@
+INFO  20:30:06,105 - Compiling source file: C:\Users\vladan\Desktop\java\MJCompiler\test\program.mj
+INFO  20:30:06,150 - #2 program
+INFO  20:30:06,150 - #32 MJProgram
+INFO  20:30:06,150 - #32 int
+INFO  20:30:06,152 - #32 x
+INFO  20:30:06,153 - #5 ;
+INFO  20:30:06,154 - #32 int
+INFO  20:30:06,155 - #32 y
+INFO  20:30:06,155 - #5 ;
+INFO  20:30:06,155 - #3 {
+INFO  20:30:06,155 - #28 void
+INFO  20:30:06,156 - #32 k
+INFO  20:30:06,156 - #13 (
+INFO  20:30:06,158 - #14 )
+INFO  20:30:06,160 - #32 int
+INFO  20:30:06,160 - #32 c
+INFO  20:30:06,160 - #5 ;
+INFO  20:30:06,161 - #3 {
+INFO  20:30:06,161 - #32 c
+INFO  20:30:06,162 - #7 =
+INFO  20:30:06,163 - #33 2
+INFO  20:30:06,165 - #5 ;
+INFO  20:30:06,166 - #30 print
+INFO  20:30:06,166 - #13 (
+INFO  20:30:06,167 - #33 0
+INFO  20:30:06,167 - #14 )
+INFO  20:30:06,167 - #5 ;
+INFO  20:30:06,167 - #4 }
+INFO  20:30:06,167 - #28 void
+INFO  20:30:06,169 - #32 main
+INFO  20:30:06,169 - #13 (
+INFO  20:30:06,169 - #14 )
+INFO  20:30:06,169 - #3 {
+INFO  20:30:06,169 - #32 x
+INFO  20:30:06,169 - #7 =
+INFO  20:30:06,169 - #33 3
+INFO  20:30:06,169 - #5 ;
+INFO  20:30:06,170 - #30 print
+INFO  20:30:06,170 - #13 (
+INFO  20:30:06,170 - #33 1
+INFO  20:30:06,170 - #14 )
+INFO  20:30:06,170 - #5 ;
+INFO  20:30:06,170 - #32 y
+INFO  20:30:06,170 - #7 =
+INFO  20:30:06,170 - #33 4
+INFO  20:30:06,171 - #18 +
+INFO  20:30:06,171 - #33 9
+INFO  20:30:06,172 - #18 +
+INFO  20:30:06,172 - #32 k
+INFO  20:30:06,173 - #13 (
+INFO  20:30:06,173 - #14 )
+INFO  20:30:06,174 - #5 ;
+INFO  20:30:06,175 - #30 print
+INFO  20:30:06,175 - #13 (
+INFO  20:30:06,175 - #33 2
+INFO  20:30:06,175 - #14 )
+INFO  20:30:06,175 - #5 ;
+INFO  20:30:06,175 - #32 k
+INFO  20:30:06,176 - #13 (
+INFO  20:30:06,176 - #14 )
+INFO  20:30:06,176 - #5 ;
+INFO  20:30:06,176 - #30 print
+INFO  20:30:06,176 - #13 (
+INFO  20:30:06,176 - #33 4
+INFO  20:30:06,176 - #14 )
+INFO  20:30:06,177 - #5 ;
+INFO  20:30:06,177 - #4 }
+INFO  20:30:06,177 - #4 }
+INFO  20:30:06,184 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  ItemDeclarations(
+    ItemDeclarations(
+      NoItemDecl(
+      ) [NoItemDecl]
+      VarsDec(
+        SingleVar(
+          Type(
+           int
+          ) [Type]
+          SimpleVar(
+            VarSingle(
+             x
+            ) [VarSingle]
+          ) [SimpleVar]
+        ) [SingleVar]
+      ) [VarsDec]
+    ) [ItemDeclarations]
+    VarsDec(
+      SingleVar(
+        Type(
+         int
+        ) [Type]
+        SimpleVar(
+          VarSingle(
+           y
+          ) [VarSingle]
+        ) [SimpleVar]
+      ) [SingleVar]
+    ) [VarsDec]
+  ) [ItemDeclarations]
+  MethodDeclarations(
+    MethodDeclarations(
+      NoMethodDecl(
+      ) [NoMethodDecl]
+      MethodDecl(
+        MethodTypeName(
+         k
+        ) [MethodTypeName]
+        NoFormParam(
+        ) [NoFormParam]
+        ItemDeclarations(
+          NoItemDecl(
+          ) [NoItemDecl]
+          VarsDec(
+            SingleVar(
+              Type(
+               int
+              ) [Type]
+              SimpleVar(
+                VarSingle(
+                 c
+                ) [VarSingle]
+              ) [SimpleVar]
+            ) [SingleVar]
+          ) [VarsDec]
+        ) [ItemDeclarations]
+        Statements(
+          StatementJedini(
+            DesStatement(
+              AssignDesign(
+                SingleDesignator(
+                 c
+                ) [SingleDesignator]
+                ExprS(
+                  Positive(
+                  ) [Positive]
+                  TermS(
+                    NumFactor(
+                     2
+                    ) [NumFactor]
+                  ) [TermS]
+                ) [ExprS]
+              ) [AssignDesign]
+            ) [DesStatement]
+          ) [StatementJedini]
+          PrintStatementNoArg(
+            ExprS(
+              Positive(
+              ) [Positive]
+              TermS(
+                NumFactor(
+                 0
+                ) [NumFactor]
+              ) [TermS]
+            ) [ExprS]
+          ) [PrintStatementNoArg]
+        ) [Statements]
+      ) [MethodDecl]
+    ) [MethodDeclarations]
+    MethodDecl(
+      MethodTypeName(
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      NoItemDecl(
+      ) [NoItemDecl]
+      Statements(
+        Statements(
+          Statements(
+            Statements(
+              Statements(
+                StatementJedini(
+                  DesStatement(
+                    AssignDesign(
+                      SingleDesignator(
+                       x
+                      ) [SingleDesignator]
+                      ExprS(
+                        Positive(
+                        ) [Positive]
+                        TermS(
+                          NumFactor(
+                           3
+                          ) [NumFactor]
+                        ) [TermS]
+                      ) [ExprS]
+                    ) [AssignDesign]
+                  ) [DesStatement]
+                ) [StatementJedini]
+                PrintStatementNoArg(
+                  ExprS(
+                    Positive(
+                    ) [Positive]
+                    TermS(
+                      NumFactor(
+                       1
+                      ) [NumFactor]
+                    ) [TermS]
+                  ) [ExprS]
+                ) [PrintStatementNoArg]
+              ) [Statements]
+              DesStatement(
+                AssignDesign(
+                  SingleDesignator(
+                   y
+                  ) [SingleDesignator]
+                  ExprC(
+                    ExprC(
+                      ExprS(
+                        Positive(
+                        ) [Positive]
+                        TermS(
+                          NumFactor(
+                           4
+                          ) [NumFactor]
+                        ) [TermS]
+                      ) [ExprS]
+                      PlusOperator(
+                      ) [PlusOperator]
+                      TermS(
+                        NumFactor(
+                         9
+                        ) [NumFactor]
+                      ) [TermS]
+                    ) [ExprC]
+                    PlusOperator(
+                    ) [PlusOperator]
+                    TermS(
+                      FuncCall(
+                        SingleDesignator(
+                         k
+                        ) [SingleDesignator]
+                        NoActuals(
+                        ) [NoActuals]
+                      ) [FuncCall]
+                    ) [TermS]
+                  ) [ExprC]
+                ) [AssignDesign]
+              ) [DesStatement]
+            ) [Statements]
+            PrintStatementNoArg(
+              ExprS(
+                Positive(
+                ) [Positive]
+                TermS(
+                  NumFactor(
+                   2
+                  ) [NumFactor]
+                ) [TermS]
+              ) [ExprS]
+            ) [PrintStatementNoArg]
+          ) [Statements]
+          ProcCall(
+            SingleDesignator(
+             k
+            ) [SingleDesignator]
+            NoActuals(
+            ) [NoActuals]
+          ) [ProcCall]
+        ) [Statements]
+        PrintStatementNoArg(
+          ExprS(
+            Positive(
+            ) [Positive]
+            TermS(
+              NumFactor(
+               4
+              ) [NumFactor]
+            ) [TermS]
+          ) [ExprS]
+        ) [PrintStatementNoArg]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  20:30:06,185 - ===================================

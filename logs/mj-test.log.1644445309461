@@ -1,0 +1,194 @@
+INFO  23:16:11,315 - Compiling source file: C:\Users\vladan\Desktop\java\MJCompiler\test\program.mj
+INFO  23:16:11,376 - #2 program
+INFO  23:16:11,376 - #32 test301
+INFO  23:16:11,377 - #27 const
+INFO  23:16:11,378 - #32 int
+INFO  23:16:11,378 - #32 nula
+INFO  23:16:11,380 - #7 =
+INFO  23:16:11,380 - #33 0
+INFO  23:16:11,381 - #5 ;
+INFO  23:16:11,381 - #27 const
+INFO  23:16:11,382 - #32 int
+INFO  23:16:11,382 - #32 jedan
+INFO  23:16:11,383 - #7 =
+INFO  23:16:11,383 - #33 1
+INFO  23:16:11,383 - #5 ;
+INFO  23:16:11,383 - #27 const
+INFO  23:16:11,383 - #32 int
+INFO  23:16:11,384 - #32 pet
+INFO  23:16:11,384 - #7 =
+INFO  23:16:11,384 - #33 5
+INFO  23:16:11,384 - #5 ;
+INFO  23:16:11,385 - #32 int
+INFO  23:16:11,388 - #32 niz
+INFO  23:16:11,389 - #8 [
+INFO  23:16:11,389 - #9 ]
+INFO  23:16:11,389 - #5 ;
+INFO  23:16:11,389 - #32 char
+INFO  23:16:11,390 - #32 nizch
+INFO  23:16:11,390 - #8 [
+INFO  23:16:11,390 - #9 ]
+INFO  23:16:11,391 - #5 ;
+INFO  23:16:11,391 - #3 {
+INFO  23:16:11,391 - #28 void
+INFO  23:16:11,392 - #32 main
+INFO  23:16:11,392 - #13 (
+INFO  23:16:11,392 - #14 )
+INFO  23:16:11,393 - #32 int
+INFO  23:16:11,393 - #32 bodovi
+INFO  23:16:11,394 - #5 ;
+INFO  23:16:11,395 - #32 bool
+INFO  23:16:11,395 - #32 bt
+INFO  23:16:11,395 - #5 ;
+INFO  23:16:11,396 - #3 {
+INFO  23:16:11,396 - #30 print
+INFO  23:16:11,396 - #13 (
+INFO  23:16:11,396 - #33 1
+INFO  23:16:11,398 - #14 )
+INFO  23:16:11,399 - #5 ;
+INFO  23:16:11,399 - #4 }
+INFO  23:16:11,399 - #4 }
+INFO  23:16:11,409 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  ItemDeclarations(
+    ItemDeclarations(
+      ItemDeclarations(
+        ItemDeclarations(
+          ItemDeclarations(
+            NoItemDecl(
+            ) [NoItemDecl]
+            Constant(
+              ConstDecl(
+                Type(
+                 int
+                ) [Type]
+                OneConst(
+                  SingleNumConst(
+                   nula
+                   0
+                  ) [SingleNumConst]
+                ) [OneConst]
+              ) [ConstDecl]
+            ) [Constant]
+          ) [ItemDeclarations]
+          Constant(
+            ConstDecl(
+              Type(
+               int
+              ) [Type]
+              OneConst(
+                SingleNumConst(
+                 jedan
+                 1
+                ) [SingleNumConst]
+              ) [OneConst]
+            ) [ConstDecl]
+          ) [Constant]
+        ) [ItemDeclarations]
+        Constant(
+          ConstDecl(
+            Type(
+             int
+            ) [Type]
+            OneConst(
+              SingleNumConst(
+               pet
+               5
+              ) [SingleNumConst]
+            ) [OneConst]
+          ) [ConstDecl]
+        ) [Constant]
+      ) [ItemDeclarations]
+      VarsDec(
+        SingleVar(
+          Type(
+           int
+          ) [Type]
+          ArrVarDecl(
+            ArrVar(
+             niz
+            ) [ArrVar]
+          ) [ArrVarDecl]
+        ) [SingleVar]
+      ) [VarsDec]
+    ) [ItemDeclarations]
+    VarsDec(
+      SingleVar(
+        Type(
+         char
+        ) [Type]
+        ArrVarDecl(
+          ArrVar(
+           nizch
+          ) [ArrVar]
+        ) [ArrVarDecl]
+      ) [SingleVar]
+    ) [VarsDec]
+  ) [ItemDeclarations]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodTypeName(
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      ItemDeclarations(
+        ItemDeclarations(
+          NoItemDecl(
+          ) [NoItemDecl]
+          VarsDec(
+            SingleVar(
+              Type(
+               int
+              ) [Type]
+              SimpleVar(
+                VarSingle(
+                 bodovi
+                ) [VarSingle]
+              ) [SimpleVar]
+            ) [SingleVar]
+          ) [VarsDec]
+        ) [ItemDeclarations]
+        VarsDec(
+          SingleVar(
+            Type(
+             bool
+            ) [Type]
+            SimpleVar(
+              VarSingle(
+               bt
+              ) [VarSingle]
+            ) [SimpleVar]
+          ) [SingleVar]
+        ) [VarsDec]
+      ) [ItemDeclarations]
+      StatementJedini(
+        PrintStatementNoArg(
+          ExprS(
+            Positive(
+            ) [Positive]
+            TermS(
+              NumFactor(
+               1
+              ) [NumFactor]
+            ) [TermS]
+          ) [ExprS]
+        ) [PrintStatementNoArg]
+      ) [StatementJedini]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  23:16:11,410 - ===================================
+INFO  23:16:11,413 - Deklarisana je promenljiva niza : niz na liniji 9
+INFO  23:16:11,413 - Deklarisana je promenljiva niza : nizch na liniji 10
+INFO  23:16:11,413 - Obradjuje se funkcija : main na liniji 13
+INFO  23:16:11,413 - Deklarisana je promenljiva : bodovitipa1 na liniji 14
+INFO  23:16:11,413 - Deklarisana je promenljiva : bttipa1 na liniji 15
+INFO  23:16:11,413 -  Print count calls = 1
+INFO  23:16:11,413 -  Deklarisanih promenljivih ima = 4
+INFO  23:16:11,413 - ===================================
+INFO  23:16:11,420 - Parsiranje uspesno zavrseno!

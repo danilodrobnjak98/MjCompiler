@@ -1,0 +1,190 @@
+INFO  22:31:33,567 - Compiling source file: C:\Users\vladan\Desktop\java\MJCompiler\test\program.mj
+INFO  22:31:33,638 - #2 program
+INFO  22:31:33,639 - #32 test301
+INFO  22:31:33,639 - #27 const
+INFO  22:31:33,641 - #32 int
+INFO  22:31:33,641 - #32 nula
+INFO  22:31:33,645 - #7 =
+INFO  22:31:33,645 - #33 0
+INFO  22:31:33,645 - #5 ;
+INFO  22:31:33,646 - #27 const
+INFO  22:31:33,647 - #32 int
+INFO  22:31:33,647 - #32 jedan
+INFO  22:31:33,647 - #7 =
+INFO  22:31:33,648 - #33 1
+INFO  22:31:33,648 - #5 ;
+INFO  22:31:33,648 - #27 const
+INFO  22:31:33,648 - #32 int
+INFO  22:31:33,648 - #32 pet
+INFO  22:31:33,649 - #7 =
+INFO  22:31:33,649 - #33 5
+INFO  22:31:33,649 - #5 ;
+INFO  22:31:33,649 - #32 int
+INFO  22:31:33,649 - #32 niz
+INFO  22:31:33,650 - #8 [
+INFO  22:31:33,650 - #9 ]
+INFO  22:31:33,650 - #5 ;
+INFO  22:31:33,650 - #32 char
+INFO  22:31:33,651 - #32 nizch
+INFO  22:31:33,651 - #8 [
+INFO  22:31:33,651 - #9 ]
+INFO  22:31:33,651 - #5 ;
+INFO  22:31:33,652 - #3 {
+INFO  22:31:33,652 - #28 void
+INFO  22:31:33,653 - #32 main
+INFO  22:31:33,653 - #13 (
+INFO  22:31:33,654 - #14 )
+INFO  22:31:33,655 - #32 int
+INFO  22:31:33,655 - #32 bodovi
+INFO  22:31:33,655 - #5 ;
+INFO  22:31:33,656 - #3 {
+INFO  22:31:33,656 - #32 labela
+INFO  22:31:33,656 - #12 :
+INFO  22:31:33,657 - #30 print
+INFO  22:31:33,657 - #13 (
+INFO  22:31:33,657 - #33 1
+INFO  22:31:33,661 - #14 )
+INFO  22:31:33,661 - #5 ;
+INFO  22:31:33,661 - #31 goto
+INFO  22:31:33,662 - #32 labela
+INFO  22:31:33,662 - #5 ;
+INFO  22:31:33,662 - #4 }
+INFO  22:31:33,662 - #4 }
+INFO  22:31:33,671 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  ItemDeclarations(
+    ItemDeclarations(
+      ItemDeclarations(
+        ItemDeclarations(
+          ItemDeclarations(
+            NoItemDecl(
+            ) [NoItemDecl]
+            Constant(
+              ConstDecl(
+                Type(
+                 int
+                ) [Type]
+                OneConst(
+                  SingleNumConst(
+                   nula
+                   0
+                  ) [SingleNumConst]
+                ) [OneConst]
+              ) [ConstDecl]
+            ) [Constant]
+          ) [ItemDeclarations]
+          Constant(
+            ConstDecl(
+              Type(
+               int
+              ) [Type]
+              OneConst(
+                SingleNumConst(
+                 jedan
+                 1
+                ) [SingleNumConst]
+              ) [OneConst]
+            ) [ConstDecl]
+          ) [Constant]
+        ) [ItemDeclarations]
+        Constant(
+          ConstDecl(
+            Type(
+             int
+            ) [Type]
+            OneConst(
+              SingleNumConst(
+               pet
+               5
+              ) [SingleNumConst]
+            ) [OneConst]
+          ) [ConstDecl]
+        ) [Constant]
+      ) [ItemDeclarations]
+      VarsDec(
+        SingleVar(
+          Type(
+           int
+          ) [Type]
+          ArrVarDecl(
+            ArrVar(
+             niz
+            ) [ArrVar]
+          ) [ArrVarDecl]
+        ) [SingleVar]
+      ) [VarsDec]
+    ) [ItemDeclarations]
+    VarsDec(
+      SingleVar(
+        Type(
+         char
+        ) [Type]
+        ArrVarDecl(
+          ArrVar(
+           nizch
+          ) [ArrVar]
+        ) [ArrVarDecl]
+      ) [SingleVar]
+    ) [VarsDec]
+  ) [ItemDeclarations]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodTypeName(
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      ItemDeclarations(
+        NoItemDecl(
+        ) [NoItemDecl]
+        VarsDec(
+          SingleVar(
+            Type(
+             int
+            ) [Type]
+            SimpleVar(
+              VarSingle(
+               bodovi
+              ) [VarSingle]
+            ) [SimpleVar]
+          ) [SingleVar]
+        ) [VarsDec]
+      ) [ItemDeclarations]
+      Statements(
+        NoStmtLabl(
+          LabelTarget(
+           labela
+          ) [LabelTarget]
+          PrintStatementNoArg(
+            ExprS(
+              Positive(
+              ) [Positive]
+              TermS(
+                NumFactor(
+                 1
+                ) [NumFactor]
+              ) [TermS]
+            ) [ExprS]
+          ) [PrintStatementNoArg]
+        ) [NoStmtLabl]
+        GotoStatement(
+         labela
+        ) [GotoStatement]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  22:31:33,672 - ===================================
+INFO  22:31:33,674 - Deklarisana je promenljiva niza : niz na liniji 9
+INFO  22:31:33,674 - Deklarisana je promenljiva niza : nizch na liniji 10
+INFO  22:31:33,675 - Obradjuje se funkcija : main na liniji 13
+INFO  22:31:33,675 - Deklarisana je promenljiva : bodovitipa1 na liniji 14
+INFO  22:31:33,675 - Procitali smo labelu : labela na liniji 16
+INFO  22:31:33,676 -  Print count calls = 1
+INFO  22:31:33,676 -  Deklarisanih promenljivih ima = 3
+INFO  22:31:33,676 - ===================================
+INFO  22:31:33,682 - Parsiranje uspesno zavrseno!

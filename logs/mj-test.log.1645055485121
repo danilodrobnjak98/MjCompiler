@@ -1,0 +1,263 @@
+INFO  00:50:21,195 - Compiling source file: C:\Users\vladan\Desktop\java\MJCompiler\test\program.mj
+INFO  00:50:21,258 - #2 program
+INFO  00:50:21,259 - #32 test301
+INFO  00:50:21,259 - #27 const
+INFO  00:50:21,260 - #32 int
+INFO  00:50:21,260 - #32 nula
+INFO  00:50:21,261 - #7 =
+INFO  00:50:21,261 - #33 0
+INFO  00:50:21,261 - #5 ;
+INFO  00:50:21,262 - #27 const
+INFO  00:50:21,263 - #32 int
+INFO  00:50:21,263 - #32 jedan
+INFO  00:50:21,264 - #7 =
+INFO  00:50:21,264 - #33 1
+INFO  00:50:21,264 - #5 ;
+INFO  00:50:21,264 - #27 const
+INFO  00:50:21,264 - #32 int
+INFO  00:50:21,264 - #32 pet
+INFO  00:50:21,265 - #7 =
+INFO  00:50:21,265 - #33 5
+INFO  00:50:21,265 - #5 ;
+INFO  00:50:21,265 - #32 int
+INFO  00:50:21,266 - #32 niz
+INFO  00:50:21,267 - #8 [
+INFO  00:50:21,267 - #9 ]
+INFO  00:50:21,267 - #5 ;
+INFO  00:50:21,268 - #32 char
+INFO  00:50:21,268 - #32 nizch
+INFO  00:50:21,268 - #8 [
+INFO  00:50:21,269 - #9 ]
+INFO  00:50:21,269 - #5 ;
+INFO  00:50:21,270 - #3 {
+INFO  00:50:21,270 - #28 void
+INFO  00:50:21,273 - #32 main
+INFO  00:50:21,273 - #13 (
+INFO  00:50:21,274 - #14 )
+INFO  00:50:21,275 - #32 int
+INFO  00:50:21,275 - #32 bodovi
+INFO  00:50:21,276 - #5 ;
+INFO  00:50:21,277 - #3 {
+INFO  00:50:21,277 - #32 bodovi
+INFO  00:50:21,278 - #7 =
+INFO  00:50:21,278 - #33 5
+INFO  00:50:21,280 - #5 ;
+INFO  00:50:21,280 - #32 bodovi
+INFO  00:50:21,281 - #15 *
+ERROR 00:50:21,281 - 
+Sintaksna greska na liniji 17
+INFO  00:50:21,281 - #7 =
+INFO  00:50:21,281 - #33 5
+INFO  00:50:21,281 - #5 ;
+INFO  00:50:21,283 - #30 print
+INFO  00:50:21,283 - #13 (
+INFO  00:50:21,283 - #32 bodovi
+ERROR 00:50:21,283 - Izvrsen oporavak do ; u liniji 17
+INFO  00:50:21,284 - #14 )
+INFO  00:50:21,285 - #5 ;
+INFO  00:50:21,285 - #32 bodovi
+INFO  00:50:21,285 - #7 =
+INFO  00:50:21,285 - #33 24
+INFO  00:50:21,285 - #15 *
+INFO  00:50:21,285 - #33 2
+INFO  00:50:21,287 - #5 ;
+INFO  00:50:21,288 - #30 print
+INFO  00:50:21,288 - #13 (
+INFO  00:50:21,288 - #32 bodovi
+INFO  00:50:21,288 - #14 )
+INFO  00:50:21,288 - #5 ;
+INFO  00:50:21,288 - #4 }
+INFO  00:50:21,289 - #4 }
+INFO  00:50:21,299 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  ItemDeclarations(
+    ItemDeclarations(
+      ItemDeclarations(
+        ItemDeclarations(
+          ItemDeclarations(
+            NoItemDecl(
+            ) [NoItemDecl]
+            Constant(
+              ConstDecl(
+                Type(
+                 int
+                ) [Type]
+                OneConst(
+                  SingleNumConst(
+                   nula
+                   0
+                  ) [SingleNumConst]
+                ) [OneConst]
+              ) [ConstDecl]
+            ) [Constant]
+          ) [ItemDeclarations]
+          Constant(
+            ConstDecl(
+              Type(
+               int
+              ) [Type]
+              OneConst(
+                SingleNumConst(
+                 jedan
+                 1
+                ) [SingleNumConst]
+              ) [OneConst]
+            ) [ConstDecl]
+          ) [Constant]
+        ) [ItemDeclarations]
+        Constant(
+          ConstDecl(
+            Type(
+             int
+            ) [Type]
+            OneConst(
+              SingleNumConst(
+               pet
+               5
+              ) [SingleNumConst]
+            ) [OneConst]
+          ) [ConstDecl]
+        ) [Constant]
+      ) [ItemDeclarations]
+      VarsDec(
+        SingleVar(
+          Type(
+           int
+          ) [Type]
+          ArrVarDecl(
+            ArrVar(
+             niz
+            ) [ArrVar]
+          ) [ArrVarDecl]
+        ) [SingleVar]
+      ) [VarsDec]
+    ) [ItemDeclarations]
+    VarsDec(
+      SingleVar(
+        Type(
+         char
+        ) [Type]
+        ArrVarDecl(
+          ArrVar(
+           nizch
+          ) [ArrVar]
+        ) [ArrVarDecl]
+      ) [SingleVar]
+    ) [VarsDec]
+  ) [ItemDeclarations]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodTypeName(
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      ItemDeclarations(
+        NoItemDecl(
+        ) [NoItemDecl]
+        VarsDec(
+          SingleVar(
+            Type(
+             int
+            ) [Type]
+            SimpleVar(
+              VarSingle(
+               bodovi
+              ) [VarSingle]
+            ) [SimpleVar]
+          ) [SingleVar]
+        ) [VarsDec]
+      ) [ItemDeclarations]
+      Statements(
+        Statements(
+          Statements(
+            Statements(
+              StatementJedini(
+                DesStatement(
+                  AssignDesign(
+                    SingleDesignator(
+                     bodovi
+                    ) [SingleDesignator]
+                    ExprS(
+                      Positive(
+                      ) [Positive]
+                      TermS(
+                        NumFactor(
+                         5
+                        ) [NumFactor]
+                      ) [TermS]
+                    ) [ExprS]
+                  ) [AssignDesign]
+                ) [DesStatement]
+              ) [StatementJedini]
+              ErrorStmt(
+              ) [ErrorStmt]
+            ) [Statements]
+            PrintStatementNoArg(
+              ExprS(
+                Positive(
+                ) [Positive]
+                TermS(
+                  DesignatorFactor(
+                    SingleDesignator(
+                     bodovi
+                    ) [SingleDesignator]
+                  ) [DesignatorFactor]
+                ) [TermS]
+              ) [ExprS]
+            ) [PrintStatementNoArg]
+          ) [Statements]
+          DesStatement(
+            AssignDesign(
+              SingleDesignator(
+               bodovi
+              ) [SingleDesignator]
+              ExprS(
+                Positive(
+                ) [Positive]
+                TermC(
+                  TermS(
+                    NumFactor(
+                     24
+                    ) [NumFactor]
+                  ) [TermS]
+                  MulOperator(
+                  ) [MulOperator]
+                  NumFactor(
+                   2
+                  ) [NumFactor]
+                ) [TermC]
+              ) [ExprS]
+            ) [AssignDesign]
+          ) [DesStatement]
+        ) [Statements]
+        PrintStatementNoArg(
+          ExprS(
+            Positive(
+            ) [Positive]
+            TermS(
+              DesignatorFactor(
+                SingleDesignator(
+                 bodovi
+                ) [SingleDesignator]
+              ) [DesignatorFactor]
+            ) [TermS]
+          ) [ExprS]
+        ) [PrintStatementNoArg]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  00:50:21,300 - ===================================
+INFO  00:50:21,302 - Deklarisana je promenljiva niza : niz na liniji 9
+INFO  00:50:21,302 - Deklarisana je promenljiva niza : nizch na liniji 10
+INFO  00:50:21,302 - Obradjuje se funkcija : main na liniji 13
+INFO  00:50:21,303 - Deklarisana je promenljiva : bodovi na liniji 14
+INFO  00:50:21,303 -  Print count calls = 2
+INFO  00:50:21,303 -  Deklarisanih promenljivih ima = 3
+INFO  00:50:21,303 - ===================================
+ERROR 00:50:21,307 - Parsiranje NIJE uspesno zavrseno!
