@@ -1,0 +1,1251 @@
+INFO  20:03:03,730 - Compiling source file: C:\Users\vladan\Desktop\java\MJCompiler\test\program.mj
+INFO  20:03:03,789 - #2 program
+INFO  20:03:03,789 - #32 test301
+INFO  20:03:03,789 - #27 const
+INFO  20:03:03,791 - #32 int
+INFO  20:03:03,791 - #32 nula
+INFO  20:03:03,793 - #7 =
+INFO  20:03:03,793 - #33 0
+INFO  20:03:03,793 - #5 ;
+INFO  20:03:03,793 - #27 const
+INFO  20:03:03,795 - #32 int
+INFO  20:03:03,795 - #32 jedan
+INFO  20:03:03,795 - #7 =
+INFO  20:03:03,795 - #33 1
+INFO  20:03:03,795 - #5 ;
+INFO  20:03:03,796 - #27 const
+INFO  20:03:03,796 - #32 int
+INFO  20:03:03,796 - #32 pet
+INFO  20:03:03,796 - #7 =
+INFO  20:03:03,796 - #33 5
+INFO  20:03:03,796 - #5 ;
+INFO  20:03:03,797 - #32 int
+INFO  20:03:03,797 - #32 niz
+INFO  20:03:03,797 - #8 [
+INFO  20:03:03,797 - #9 ]
+INFO  20:03:03,797 - #5 ;
+INFO  20:03:03,798 - #32 char
+INFO  20:03:03,798 - #32 nizch
+INFO  20:03:03,798 - #8 [
+INFO  20:03:03,799 - #9 ]
+INFO  20:03:03,799 - #5 ;
+INFO  20:03:03,800 - #3 {
+INFO  20:03:03,800 - #28 void
+INFO  20:03:03,801 - #32 main
+INFO  20:03:03,801 - #13 (
+INFO  20:03:03,802 - #14 )
+INFO  20:03:03,803 - #32 int
+INFO  20:03:03,803 - #32 bodovi
+INFO  20:03:03,804 - #5 ;
+INFO  20:03:03,806 - #3 {
+INFO  20:03:03,806 - #32 bodovi
+INFO  20:03:03,806 - #7 =
+INFO  20:03:03,807 - #33 0
+INFO  20:03:03,810 - #5 ;
+INFO  20:03:03,811 - #32 bodovi
+INFO  20:03:03,811 - #10 ++
+INFO  20:03:03,811 - #5 ;
+INFO  20:03:03,811 - #32 bodovi
+INFO  20:03:03,812 - #7 =
+INFO  20:03:03,812 - #32 bodovi
+INFO  20:03:03,812 - #18 +
+INFO  20:03:03,812 - #32 jedan
+INFO  20:03:03,814 - #5 ;
+INFO  20:03:03,815 - #32 bodovi
+INFO  20:03:03,815 - #7 =
+INFO  20:03:03,815 - #32 bodovi
+INFO  20:03:03,816 - #15 *
+INFO  20:03:03,816 - #32 pet
+INFO  20:03:03,817 - #5 ;
+INFO  20:03:03,817 - #32 bodovi
+INFO  20:03:03,817 - #11 --
+INFO  20:03:03,818 - #5 ;
+INFO  20:03:03,818 - #30 print
+INFO  20:03:03,818 - #13 (
+INFO  20:03:03,818 - #32 bodovi
+INFO  20:03:03,818 - #14 )
+INFO  20:03:03,820 - #5 ;
+INFO  20:03:03,820 - #32 niz
+INFO  20:03:03,820 - #7 =
+INFO  20:03:03,821 - #26 new
+INFO  20:03:03,821 - #32 int
+INFO  20:03:03,821 - #8 [
+INFO  20:03:03,821 - #33 3
+INFO  20:03:03,821 - #9 ]
+INFO  20:03:03,821 - #5 ;
+INFO  20:03:03,821 - #32 niz
+INFO  20:03:03,821 - #8 [
+INFO  20:03:03,822 - #32 nula
+INFO  20:03:03,823 - #9 ]
+INFO  20:03:03,823 - #7 =
+INFO  20:03:03,823 - #32 jedan
+INFO  20:03:03,823 - #5 ;
+INFO  20:03:03,824 - #32 niz
+INFO  20:03:03,824 - #8 [
+INFO  20:03:03,824 - #33 1
+INFO  20:03:03,824 - #9 ]
+INFO  20:03:03,824 - #7 =
+INFO  20:03:03,824 - #33 2
+INFO  20:03:03,825 - #5 ;
+INFO  20:03:03,825 - #32 niz
+INFO  20:03:03,825 - #8 [
+INFO  20:03:03,825 - #32 niz
+INFO  20:03:03,825 - #8 [
+INFO  20:03:03,826 - #32 jedan
+INFO  20:03:03,826 - #9 ]
+INFO  20:03:03,826 - #9 ]
+INFO  20:03:03,826 - #7 =
+INFO  20:03:03,826 - #32 niz
+INFO  20:03:03,826 - #8 [
+INFO  20:03:03,827 - #32 niz
+INFO  20:03:03,827 - #8 [
+INFO  20:03:03,827 - #33 0
+INFO  20:03:03,827 - #9 ]
+INFO  20:03:03,827 - #9 ]
+INFO  20:03:03,827 - #15 *
+INFO  20:03:03,828 - #33 3
+INFO  20:03:03,828 - #5 ;
+INFO  20:03:03,829 - #32 bodovi
+INFO  20:03:03,829 - #7 =
+INFO  20:03:03,829 - #32 niz
+INFO  20:03:03,829 - #8 [
+INFO  20:03:03,829 - #33 2
+INFO  20:03:03,829 - #9 ]
+INFO  20:03:03,830 - #16 /
+INFO  20:03:03,830 - #32 niz
+INFO  20:03:03,832 - #8 [
+INFO  20:03:03,833 - #33 0
+INFO  20:03:03,833 - #9 ]
+INFO  20:03:03,833 - #5 ;
+INFO  20:03:03,833 - #30 print
+INFO  20:03:03,833 - #13 (
+INFO  20:03:03,833 - #32 bodovi
+INFO  20:03:03,833 - #14 )
+INFO  20:03:03,834 - #5 ;
+INFO  20:03:03,834 - #30 print
+INFO  20:03:03,834 - #13 (
+INFO  20:03:03,834 - #32 niz
+INFO  20:03:03,834 - #8 [
+INFO  20:03:03,834 - #33 2
+INFO  20:03:03,834 - #9 ]
+INFO  20:03:03,835 - #14 )
+INFO  20:03:03,835 - #5 ;
+INFO  20:03:03,835 - #32 nizch
+INFO  20:03:03,835 - #7 =
+INFO  20:03:03,835 - #26 new
+INFO  20:03:03,836 - #32 char
+INFO  20:03:03,836 - #8 [
+INFO  20:03:03,836 - #33 3
+INFO  20:03:03,837 - #9 ]
+INFO  20:03:03,837 - #5 ;
+INFO  20:03:03,837 - #32 nizch
+INFO  20:03:03,837 - #8 [
+INFO  20:03:03,837 - #33 0
+INFO  20:03:03,837 - #9 ]
+INFO  20:03:03,837 - #7 =
+INFO  20:03:03,838 - #34 a
+INFO  20:03:03,838 - #5 ;
+INFO  20:03:03,839 - #32 nizch
+INFO  20:03:03,839 - #8 [
+INFO  20:03:03,839 - #32 jedan
+INFO  20:03:03,839 - #9 ]
+INFO  20:03:03,841 - #7 =
+INFO  20:03:03,841 - #34 b
+INFO  20:03:03,841 - #5 ;
+INFO  20:03:03,844 - #32 nizch
+INFO  20:03:03,844 - #8 [
+INFO  20:03:03,845 - #32 pet
+INFO  20:03:03,845 - #19 -
+INFO  20:03:03,845 - #33 3
+INFO  20:03:03,846 - #9 ]
+INFO  20:03:03,847 - #7 =
+INFO  20:03:03,847 - #34 c
+INFO  20:03:03,847 - #5 ;
+INFO  20:03:03,847 - #30 print
+INFO  20:03:03,847 - #13 (
+INFO  20:03:03,849 - #32 nizch
+INFO  20:03:03,849 - #8 [
+INFO  20:03:03,849 - #33 1
+INFO  20:03:03,850 - #9 ]
+INFO  20:03:03,850 - #14 )
+INFO  20:03:03,850 - #5 ;
+INFO  20:03:03,850 - #30 print
+INFO  20:03:03,850 - #13 (
+INFO  20:03:03,850 - #32 nizch
+INFO  20:03:03,850 - #8 [
+INFO  20:03:03,851 - #32 jedan
+INFO  20:03:03,851 - #15 *
+INFO  20:03:03,851 - #33 2
+INFO  20:03:03,851 - #9 ]
+INFO  20:03:03,851 - #14 )
+INFO  20:03:03,851 - #5 ;
+INFO  20:03:03,851 - #32 bodovi
+INFO  20:03:03,857 - #7 =
+INFO  20:03:03,857 - #32 bodovi
+INFO  20:03:03,857 - #18 +
+INFO  20:03:03,857 - #13 (
+INFO  20:03:03,857 - #32 pet
+INFO  20:03:03,858 - #15 *
+INFO  20:03:03,858 - #32 jedan
+INFO  20:03:03,858 - #19 -
+INFO  20:03:03,860 - #33 1
+INFO  20:03:03,861 - #14 )
+INFO  20:03:03,861 - #15 *
+INFO  20:03:03,861 - #32 bodovi
+INFO  20:03:03,861 - #19 -
+INFO  20:03:03,862 - #13 (
+INFO  20:03:03,862 - #33 3
+INFO  20:03:03,862 - #17 %
+INFO  20:03:03,862 - #33 2
+INFO  20:03:03,863 - #18 +
+INFO  20:03:03,863 - #33 3
+INFO  20:03:03,863 - #15 *
+INFO  20:03:03,863 - #33 2
+INFO  20:03:03,863 - #19 -
+INFO  20:03:03,863 - #33 3
+INFO  20:03:03,864 - #14 )
+INFO  20:03:03,864 - #5 ;
+INFO  20:03:03,864 - #30 print
+INFO  20:03:03,864 - #13 (
+INFO  20:03:03,864 - #32 bodovi
+INFO  20:03:03,864 - #14 )
+INFO  20:03:03,864 - #5 ;
+INFO  20:03:03,864 - #29 read
+INFO  20:03:03,865 - #13 (
+INFO  20:03:03,865 - #32 bodovi
+INFO  20:03:03,865 - #14 )
+INFO  20:03:03,865 - #5 ;
+INFO  20:03:03,865 - #30 print
+INFO  20:03:03,867 - #13 (
+INFO  20:03:03,868 - #32 bodovi
+INFO  20:03:03,871 - #14 )
+INFO  20:03:03,871 - #5 ;
+INFO  20:03:03,872 - #32 bodovi
+INFO  20:03:03,872 - #10 ++
+INFO  20:03:03,872 - #5 ;
+INFO  20:03:03,872 - #31 goto
+INFO  20:03:03,872 - #32 labela1
+INFO  20:03:03,872 - #5 ;
+INFO  20:03:03,872 - #32 bodovi
+INFO  20:03:03,873 - #7 =
+INFO  20:03:03,873 - #32 bodovi
+INFO  20:03:03,873 - #15 *
+INFO  20:03:03,873 - #33 2
+INFO  20:03:03,873 - #5 ;
+INFO  20:03:03,873 - #32 bodovi
+INFO  20:03:03,874 - #11 --
+INFO  20:03:03,874 - #5 ;
+INFO  20:03:03,874 - #32 labela1
+INFO  20:03:03,874 - #12 :
+INFO  20:03:03,874 - #32 bodovi
+INFO  20:03:03,874 - #7 =
+INFO  20:03:03,874 - #32 bodovi
+INFO  20:03:03,874 - #18 +
+INFO  20:03:03,874 - #33 3
+INFO  20:03:03,875 - #5 ;
+INFO  20:03:03,875 - #30 print
+INFO  20:03:03,875 - #13 (
+INFO  20:03:03,875 - #32 bodovi
+INFO  20:03:03,875 - #14 )
+INFO  20:03:03,875 - #5 ;
+INFO  20:03:03,875 - #31 goto
+INFO  20:03:03,875 - #32 labelaminus
+INFO  20:03:03,875 - #5 ;
+INFO  20:03:03,876 - #30 print
+INFO  20:03:03,887 - #13 (
+INFO  20:03:03,888 - #34 +
+INFO  20:03:03,889 - #14 )
+INFO  20:03:03,889 - #5 ;
+INFO  20:03:03,889 - #32 labelaminus
+INFO  20:03:03,890 - #12 :
+INFO  20:03:03,890 - #30 print
+INFO  20:03:03,890 - #13 (
+INFO  20:03:03,890 - #34 -
+INFO  20:03:03,890 - #14 )
+INFO  20:03:03,890 - #5 ;
+INFO  20:03:03,890 - #4 }
+INFO  20:03:03,890 - #4 }
+INFO  20:03:03,910 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  ItemDeclarations(
+    ItemDeclarations(
+      ItemDeclarations(
+        ItemDeclarations(
+          ItemDeclarations(
+            NoItemDecl(
+            ) [NoItemDecl]
+            Constant(
+              ConstDecl(
+                Type(
+                 int
+                ) [Type]
+                OneConst(
+                  SingleNumConst(
+                   nula
+                   0
+                  ) [SingleNumConst]
+                ) [OneConst]
+              ) [ConstDecl]
+            ) [Constant]
+          ) [ItemDeclarations]
+          Constant(
+            ConstDecl(
+              Type(
+               int
+              ) [Type]
+              OneConst(
+                SingleNumConst(
+                 jedan
+                 1
+                ) [SingleNumConst]
+              ) [OneConst]
+            ) [ConstDecl]
+          ) [Constant]
+        ) [ItemDeclarations]
+        Constant(
+          ConstDecl(
+            Type(
+             int
+            ) [Type]
+            OneConst(
+              SingleNumConst(
+               pet
+               5
+              ) [SingleNumConst]
+            ) [OneConst]
+          ) [ConstDecl]
+        ) [Constant]
+      ) [ItemDeclarations]
+      VarsDec(
+        SingleVar(
+          Type(
+           int
+          ) [Type]
+          ArrVarDecl(
+            ArrVar(
+             niz
+            ) [ArrVar]
+          ) [ArrVarDecl]
+        ) [SingleVar]
+      ) [VarsDec]
+    ) [ItemDeclarations]
+    VarsDec(
+      SingleVar(
+        Type(
+         char
+        ) [Type]
+        ArrVarDecl(
+          ArrVar(
+           nizch
+          ) [ArrVar]
+        ) [ArrVarDecl]
+      ) [SingleVar]
+    ) [VarsDec]
+  ) [ItemDeclarations]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodTypeName(
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      ItemDeclarations(
+        NoItemDecl(
+        ) [NoItemDecl]
+        VarsDec(
+          SingleVar(
+            Type(
+             int
+            ) [Type]
+            SimpleVar(
+              VarSingle(
+               bodovi
+              ) [VarSingle]
+            ) [SimpleVar]
+          ) [SingleVar]
+        ) [VarsDec]
+      ) [ItemDeclarations]
+      Statementslistt(
+        Statements(
+          Statements(
+            Statements(
+              Statementslistt(
+                Statements(
+                  Statements(
+                    Statements(
+                      Statements(
+                        Statements(
+                          Statements(
+                            Statements(
+                              Statements(
+                                Statements(
+                                  Statements(
+                                    Statements(
+                                      Statements(
+                                        Statements(
+                                          Statements(
+                                            Statements(
+                                              Statements(
+                                                Statements(
+                                                  Statements(
+                                                    Statements(
+                                                      Statements(
+                                                        Statements(
+                                                          Statements(
+                                                            Statements(
+                                                              Statements(
+                                                                Statements(
+                                                                  Statements(
+                                                                    StatementJedini(
+                                                                      DesStatement(
+                                                                        AssignDesign(
+                                                                          SingleDesignator(
+                                                                           bodovi
+                                                                          ) [SingleDesignator]
+                                                                          ExprS(
+                                                                            Positive(
+                                                                            ) [Positive]
+                                                                            TermS(
+                                                                              NumFactor(
+                                                                               0
+                                                                              ) [NumFactor]
+                                                                            ) [TermS]
+                                                                          ) [ExprS]
+                                                                        ) [AssignDesign]
+                                                                      ) [DesStatement]
+                                                                    ) [StatementJedini]
+                                                                    DesStatement(
+                                                                      DesignatorINC(
+                                                                        SingleDesignator(
+                                                                         bodovi
+                                                                        ) [SingleDesignator]
+                                                                      ) [DesignatorINC]
+                                                                    ) [DesStatement]
+                                                                  ) [Statements]
+                                                                  DesStatement(
+                                                                    AssignDesign(
+                                                                      SingleDesignator(
+                                                                       bodovi
+                                                                      ) [SingleDesignator]
+                                                                      ExprC(
+                                                                        ExprS(
+                                                                          Positive(
+                                                                          ) [Positive]
+                                                                          TermS(
+                                                                            DesignatorFactor(
+                                                                              SingleDesignator(
+                                                                               bodovi
+                                                                              ) [SingleDesignator]
+                                                                            ) [DesignatorFactor]
+                                                                          ) [TermS]
+                                                                        ) [ExprS]
+                                                                        PlusOperator(
+                                                                        ) [PlusOperator]
+                                                                        TermS(
+                                                                          DesignatorFactor(
+                                                                            SingleDesignator(
+                                                                             jedan
+                                                                            ) [SingleDesignator]
+                                                                          ) [DesignatorFactor]
+                                                                        ) [TermS]
+                                                                      ) [ExprC]
+                                                                    ) [AssignDesign]
+                                                                  ) [DesStatement]
+                                                                ) [Statements]
+                                                                DesStatement(
+                                                                  AssignDesign(
+                                                                    SingleDesignator(
+                                                                     bodovi
+                                                                    ) [SingleDesignator]
+                                                                    ExprS(
+                                                                      Positive(
+                                                                      ) [Positive]
+                                                                      TermC(
+                                                                        TermS(
+                                                                          DesignatorFactor(
+                                                                            SingleDesignator(
+                                                                             bodovi
+                                                                            ) [SingleDesignator]
+                                                                          ) [DesignatorFactor]
+                                                                        ) [TermS]
+                                                                        MulOperator(
+                                                                        ) [MulOperator]
+                                                                        DesignatorFactor(
+                                                                          SingleDesignator(
+                                                                           pet
+                                                                          ) [SingleDesignator]
+                                                                        ) [DesignatorFactor]
+                                                                      ) [TermC]
+                                                                    ) [ExprS]
+                                                                  ) [AssignDesign]
+                                                                ) [DesStatement]
+                                                              ) [Statements]
+                                                              DesStatement(
+                                                                DesignatorDEC(
+                                                                  SingleDesignator(
+                                                                   bodovi
+                                                                  ) [SingleDesignator]
+                                                                ) [DesignatorDEC]
+                                                              ) [DesStatement]
+                                                            ) [Statements]
+                                                            PrintStatementNoArg(
+                                                              ExprS(
+                                                                Positive(
+                                                                ) [Positive]
+                                                                TermS(
+                                                                  DesignatorFactor(
+                                                                    SingleDesignator(
+                                                                     bodovi
+                                                                    ) [SingleDesignator]
+                                                                  ) [DesignatorFactor]
+                                                                ) [TermS]
+                                                              ) [ExprS]
+                                                            ) [PrintStatementNoArg]
+                                                          ) [Statements]
+                                                          DesStatement(
+                                                            AssignDesign(
+                                                              SingleDesignator(
+                                                               niz
+                                                              ) [SingleDesignator]
+                                                              ExprS(
+                                                                Positive(
+                                                                ) [Positive]
+                                                                TermS(
+                                                                  NewFactor(
+                                                                    Type(
+                                                                     int
+                                                                    ) [Type]
+                                                                    ExprS(
+                                                                      Positive(
+                                                                      ) [Positive]
+                                                                      TermS(
+                                                                        NumFactor(
+                                                                         3
+                                                                        ) [NumFactor]
+                                                                      ) [TermS]
+                                                                    ) [ExprS]
+                                                                  ) [NewFactor]
+                                                                ) [TermS]
+                                                              ) [ExprS]
+                                                            ) [AssignDesign]
+                                                          ) [DesStatement]
+                                                        ) [Statements]
+                                                        DesStatement(
+                                                          AssignDesign(
+                                                            ArrayDesignator(
+                                                              DesignatorArr(
+                                                                SingleDesignator(
+                                                                 niz
+                                                                ) [SingleDesignator]
+                                                              ) [DesignatorArr]
+                                                              ExprS(
+                                                                Positive(
+                                                                ) [Positive]
+                                                                TermS(
+                                                                  DesignatorFactor(
+                                                                    SingleDesignator(
+                                                                     nula
+                                                                    ) [SingleDesignator]
+                                                                  ) [DesignatorFactor]
+                                                                ) [TermS]
+                                                              ) [ExprS]
+                                                            ) [ArrayDesignator]
+                                                            ExprS(
+                                                              Positive(
+                                                              ) [Positive]
+                                                              TermS(
+                                                                DesignatorFactor(
+                                                                  SingleDesignator(
+                                                                   jedan
+                                                                  ) [SingleDesignator]
+                                                                ) [DesignatorFactor]
+                                                              ) [TermS]
+                                                            ) [ExprS]
+                                                          ) [AssignDesign]
+                                                        ) [DesStatement]
+                                                      ) [Statements]
+                                                      DesStatement(
+                                                        AssignDesign(
+                                                          ArrayDesignator(
+                                                            DesignatorArr(
+                                                              SingleDesignator(
+                                                               niz
+                                                              ) [SingleDesignator]
+                                                            ) [DesignatorArr]
+                                                            ExprS(
+                                                              Positive(
+                                                              ) [Positive]
+                                                              TermS(
+                                                                NumFactor(
+                                                                 1
+                                                                ) [NumFactor]
+                                                              ) [TermS]
+                                                            ) [ExprS]
+                                                          ) [ArrayDesignator]
+                                                          ExprS(
+                                                            Positive(
+                                                            ) [Positive]
+                                                            TermS(
+                                                              NumFactor(
+                                                               2
+                                                              ) [NumFactor]
+                                                            ) [TermS]
+                                                          ) [ExprS]
+                                                        ) [AssignDesign]
+                                                      ) [DesStatement]
+                                                    ) [Statements]
+                                                    DesStatement(
+                                                      AssignDesign(
+                                                        ArrayDesignator(
+                                                          DesignatorArr(
+                                                            SingleDesignator(
+                                                             niz
+                                                            ) [SingleDesignator]
+                                                          ) [DesignatorArr]
+                                                          ExprS(
+                                                            Positive(
+                                                            ) [Positive]
+                                                            TermS(
+                                                              DesignatorFactor(
+                                                                ArrayDesignator(
+                                                                  DesignatorArr(
+                                                                    SingleDesignator(
+                                                                     niz
+                                                                    ) [SingleDesignator]
+                                                                  ) [DesignatorArr]
+                                                                  ExprS(
+                                                                    Positive(
+                                                                    ) [Positive]
+                                                                    TermS(
+                                                                      DesignatorFactor(
+                                                                        SingleDesignator(
+                                                                         jedan
+                                                                        ) [SingleDesignator]
+                                                                      ) [DesignatorFactor]
+                                                                    ) [TermS]
+                                                                  ) [ExprS]
+                                                                ) [ArrayDesignator]
+                                                              ) [DesignatorFactor]
+                                                            ) [TermS]
+                                                          ) [ExprS]
+                                                        ) [ArrayDesignator]
+                                                        ExprS(
+                                                          Positive(
+                                                          ) [Positive]
+                                                          TermC(
+                                                            TermS(
+                                                              DesignatorFactor(
+                                                                ArrayDesignator(
+                                                                  DesignatorArr(
+                                                                    SingleDesignator(
+                                                                     niz
+                                                                    ) [SingleDesignator]
+                                                                  ) [DesignatorArr]
+                                                                  ExprS(
+                                                                    Positive(
+                                                                    ) [Positive]
+                                                                    TermS(
+                                                                      DesignatorFactor(
+                                                                        ArrayDesignator(
+                                                                          DesignatorArr(
+                                                                            SingleDesignator(
+                                                                             niz
+                                                                            ) [SingleDesignator]
+                                                                          ) [DesignatorArr]
+                                                                          ExprS(
+                                                                            Positive(
+                                                                            ) [Positive]
+                                                                            TermS(
+                                                                              NumFactor(
+                                                                               0
+                                                                              ) [NumFactor]
+                                                                            ) [TermS]
+                                                                          ) [ExprS]
+                                                                        ) [ArrayDesignator]
+                                                                      ) [DesignatorFactor]
+                                                                    ) [TermS]
+                                                                  ) [ExprS]
+                                                                ) [ArrayDesignator]
+                                                              ) [DesignatorFactor]
+                                                            ) [TermS]
+                                                            MulOperator(
+                                                            ) [MulOperator]
+                                                            NumFactor(
+                                                             3
+                                                            ) [NumFactor]
+                                                          ) [TermC]
+                                                        ) [ExprS]
+                                                      ) [AssignDesign]
+                                                    ) [DesStatement]
+                                                  ) [Statements]
+                                                  DesStatement(
+                                                    AssignDesign(
+                                                      SingleDesignator(
+                                                       bodovi
+                                                      ) [SingleDesignator]
+                                                      ExprS(
+                                                        Positive(
+                                                        ) [Positive]
+                                                        TermC(
+                                                          TermS(
+                                                            DesignatorFactor(
+                                                              ArrayDesignator(
+                                                                DesignatorArr(
+                                                                  SingleDesignator(
+                                                                   niz
+                                                                  ) [SingleDesignator]
+                                                                ) [DesignatorArr]
+                                                                ExprS(
+                                                                  Positive(
+                                                                  ) [Positive]
+                                                                  TermS(
+                                                                    NumFactor(
+                                                                     2
+                                                                    ) [NumFactor]
+                                                                  ) [TermS]
+                                                                ) [ExprS]
+                                                              ) [ArrayDesignator]
+                                                            ) [DesignatorFactor]
+                                                          ) [TermS]
+                                                          DivOperator(
+                                                          ) [DivOperator]
+                                                          DesignatorFactor(
+                                                            ArrayDesignator(
+                                                              DesignatorArr(
+                                                                SingleDesignator(
+                                                                 niz
+                                                                ) [SingleDesignator]
+                                                              ) [DesignatorArr]
+                                                              ExprS(
+                                                                Positive(
+                                                                ) [Positive]
+                                                                TermS(
+                                                                  NumFactor(
+                                                                   0
+                                                                  ) [NumFactor]
+                                                                ) [TermS]
+                                                              ) [ExprS]
+                                                            ) [ArrayDesignator]
+                                                          ) [DesignatorFactor]
+                                                        ) [TermC]
+                                                      ) [ExprS]
+                                                    ) [AssignDesign]
+                                                  ) [DesStatement]
+                                                ) [Statements]
+                                                PrintStatementNoArg(
+                                                  ExprS(
+                                                    Positive(
+                                                    ) [Positive]
+                                                    TermS(
+                                                      DesignatorFactor(
+                                                        SingleDesignator(
+                                                         bodovi
+                                                        ) [SingleDesignator]
+                                                      ) [DesignatorFactor]
+                                                    ) [TermS]
+                                                  ) [ExprS]
+                                                ) [PrintStatementNoArg]
+                                              ) [Statements]
+                                              PrintStatementNoArg(
+                                                ExprS(
+                                                  Positive(
+                                                  ) [Positive]
+                                                  TermS(
+                                                    DesignatorFactor(
+                                                      ArrayDesignator(
+                                                        DesignatorArr(
+                                                          SingleDesignator(
+                                                           niz
+                                                          ) [SingleDesignator]
+                                                        ) [DesignatorArr]
+                                                        ExprS(
+                                                          Positive(
+                                                          ) [Positive]
+                                                          TermS(
+                                                            NumFactor(
+                                                             2
+                                                            ) [NumFactor]
+                                                          ) [TermS]
+                                                        ) [ExprS]
+                                                      ) [ArrayDesignator]
+                                                    ) [DesignatorFactor]
+                                                  ) [TermS]
+                                                ) [ExprS]
+                                              ) [PrintStatementNoArg]
+                                            ) [Statements]
+                                            DesStatement(
+                                              AssignDesign(
+                                                SingleDesignator(
+                                                 nizch
+                                                ) [SingleDesignator]
+                                                ExprS(
+                                                  Positive(
+                                                  ) [Positive]
+                                                  TermS(
+                                                    NewFactor(
+                                                      Type(
+                                                       char
+                                                      ) [Type]
+                                                      ExprS(
+                                                        Positive(
+                                                        ) [Positive]
+                                                        TermS(
+                                                          NumFactor(
+                                                           3
+                                                          ) [NumFactor]
+                                                        ) [TermS]
+                                                      ) [ExprS]
+                                                    ) [NewFactor]
+                                                  ) [TermS]
+                                                ) [ExprS]
+                                              ) [AssignDesign]
+                                            ) [DesStatement]
+                                          ) [Statements]
+                                          DesStatement(
+                                            AssignDesign(
+                                              ArrayDesignator(
+                                                DesignatorArr(
+                                                  SingleDesignator(
+                                                   nizch
+                                                  ) [SingleDesignator]
+                                                ) [DesignatorArr]
+                                                ExprS(
+                                                  Positive(
+                                                  ) [Positive]
+                                                  TermS(
+                                                    NumFactor(
+                                                     0
+                                                    ) [NumFactor]
+                                                  ) [TermS]
+                                                ) [ExprS]
+                                              ) [ArrayDesignator]
+                                              ExprS(
+                                                Positive(
+                                                ) [Positive]
+                                                TermS(
+                                                  CharFactor(
+                                                   a
+                                                  ) [CharFactor]
+                                                ) [TermS]
+                                              ) [ExprS]
+                                            ) [AssignDesign]
+                                          ) [DesStatement]
+                                        ) [Statements]
+                                        DesStatement(
+                                          AssignDesign(
+                                            ArrayDesignator(
+                                              DesignatorArr(
+                                                SingleDesignator(
+                                                 nizch
+                                                ) [SingleDesignator]
+                                              ) [DesignatorArr]
+                                              ExprS(
+                                                Positive(
+                                                ) [Positive]
+                                                TermS(
+                                                  DesignatorFactor(
+                                                    SingleDesignator(
+                                                     jedan
+                                                    ) [SingleDesignator]
+                                                  ) [DesignatorFactor]
+                                                ) [TermS]
+                                              ) [ExprS]
+                                            ) [ArrayDesignator]
+                                            ExprS(
+                                              Positive(
+                                              ) [Positive]
+                                              TermS(
+                                                CharFactor(
+                                                 b
+                                                ) [CharFactor]
+                                              ) [TermS]
+                                            ) [ExprS]
+                                          ) [AssignDesign]
+                                        ) [DesStatement]
+                                      ) [Statements]
+                                      DesStatement(
+                                        AssignDesign(
+                                          ArrayDesignator(
+                                            DesignatorArr(
+                                              SingleDesignator(
+                                               nizch
+                                              ) [SingleDesignator]
+                                            ) [DesignatorArr]
+                                            ExprC(
+                                              ExprS(
+                                                Positive(
+                                                ) [Positive]
+                                                TermS(
+                                                  DesignatorFactor(
+                                                    SingleDesignator(
+                                                     pet
+                                                    ) [SingleDesignator]
+                                                  ) [DesignatorFactor]
+                                                ) [TermS]
+                                              ) [ExprS]
+                                              MinusOperator(
+                                              ) [MinusOperator]
+                                              TermS(
+                                                NumFactor(
+                                                 3
+                                                ) [NumFactor]
+                                              ) [TermS]
+                                            ) [ExprC]
+                                          ) [ArrayDesignator]
+                                          ExprS(
+                                            Positive(
+                                            ) [Positive]
+                                            TermS(
+                                              CharFactor(
+                                               c
+                                              ) [CharFactor]
+                                            ) [TermS]
+                                          ) [ExprS]
+                                        ) [AssignDesign]
+                                      ) [DesStatement]
+                                    ) [Statements]
+                                    PrintStatementNoArg(
+                                      ExprS(
+                                        Positive(
+                                        ) [Positive]
+                                        TermS(
+                                          DesignatorFactor(
+                                            ArrayDesignator(
+                                              DesignatorArr(
+                                                SingleDesignator(
+                                                 nizch
+                                                ) [SingleDesignator]
+                                              ) [DesignatorArr]
+                                              ExprS(
+                                                Positive(
+                                                ) [Positive]
+                                                TermS(
+                                                  NumFactor(
+                                                   1
+                                                  ) [NumFactor]
+                                                ) [TermS]
+                                              ) [ExprS]
+                                            ) [ArrayDesignator]
+                                          ) [DesignatorFactor]
+                                        ) [TermS]
+                                      ) [ExprS]
+                                    ) [PrintStatementNoArg]
+                                  ) [Statements]
+                                  PrintStatementNoArg(
+                                    ExprS(
+                                      Positive(
+                                      ) [Positive]
+                                      TermS(
+                                        DesignatorFactor(
+                                          ArrayDesignator(
+                                            DesignatorArr(
+                                              SingleDesignator(
+                                               nizch
+                                              ) [SingleDesignator]
+                                            ) [DesignatorArr]
+                                            ExprS(
+                                              Positive(
+                                              ) [Positive]
+                                              TermC(
+                                                TermS(
+                                                  DesignatorFactor(
+                                                    SingleDesignator(
+                                                     jedan
+                                                    ) [SingleDesignator]
+                                                  ) [DesignatorFactor]
+                                                ) [TermS]
+                                                MulOperator(
+                                                ) [MulOperator]
+                                                NumFactor(
+                                                 2
+                                                ) [NumFactor]
+                                              ) [TermC]
+                                            ) [ExprS]
+                                          ) [ArrayDesignator]
+                                        ) [DesignatorFactor]
+                                      ) [TermS]
+                                    ) [ExprS]
+                                  ) [PrintStatementNoArg]
+                                ) [Statements]
+                                DesStatement(
+                                  AssignDesign(
+                                    SingleDesignator(
+                                     bodovi
+                                    ) [SingleDesignator]
+                                    ExprC(
+                                      ExprC(
+                                        ExprS(
+                                          Positive(
+                                          ) [Positive]
+                                          TermS(
+                                            DesignatorFactor(
+                                              SingleDesignator(
+                                               bodovi
+                                              ) [SingleDesignator]
+                                            ) [DesignatorFactor]
+                                          ) [TermS]
+                                        ) [ExprS]
+                                        PlusOperator(
+                                        ) [PlusOperator]
+                                        TermC(
+                                          TermS(
+                                            ExprFactor(
+                                              ExprC(
+                                                ExprS(
+                                                  Positive(
+                                                  ) [Positive]
+                                                  TermC(
+                                                    TermS(
+                                                      DesignatorFactor(
+                                                        SingleDesignator(
+                                                         pet
+                                                        ) [SingleDesignator]
+                                                      ) [DesignatorFactor]
+                                                    ) [TermS]
+                                                    MulOperator(
+                                                    ) [MulOperator]
+                                                    DesignatorFactor(
+                                                      SingleDesignator(
+                                                       jedan
+                                                      ) [SingleDesignator]
+                                                    ) [DesignatorFactor]
+                                                  ) [TermC]
+                                                ) [ExprS]
+                                                MinusOperator(
+                                                ) [MinusOperator]
+                                                TermS(
+                                                  NumFactor(
+                                                   1
+                                                  ) [NumFactor]
+                                                ) [TermS]
+                                              ) [ExprC]
+                                            ) [ExprFactor]
+                                          ) [TermS]
+                                          MulOperator(
+                                          ) [MulOperator]
+                                          DesignatorFactor(
+                                            SingleDesignator(
+                                             bodovi
+                                            ) [SingleDesignator]
+                                          ) [DesignatorFactor]
+                                        ) [TermC]
+                                      ) [ExprC]
+                                      MinusOperator(
+                                      ) [MinusOperator]
+                                      TermS(
+                                        ExprFactor(
+                                          ExprC(
+                                            ExprC(
+                                              ExprS(
+                                                Positive(
+                                                ) [Positive]
+                                                TermC(
+                                                  TermS(
+                                                    NumFactor(
+                                                     3
+                                                    ) [NumFactor]
+                                                  ) [TermS]
+                                                  ModOperator(
+                                                  ) [ModOperator]
+                                                  NumFactor(
+                                                   2
+                                                  ) [NumFactor]
+                                                ) [TermC]
+                                              ) [ExprS]
+                                              PlusOperator(
+                                              ) [PlusOperator]
+                                              TermC(
+                                                TermS(
+                                                  NumFactor(
+                                                   3
+                                                  ) [NumFactor]
+                                                ) [TermS]
+                                                MulOperator(
+                                                ) [MulOperator]
+                                                NumFactor(
+                                                 2
+                                                ) [NumFactor]
+                                              ) [TermC]
+                                            ) [ExprC]
+                                            MinusOperator(
+                                            ) [MinusOperator]
+                                            TermS(
+                                              NumFactor(
+                                               3
+                                              ) [NumFactor]
+                                            ) [TermS]
+                                          ) [ExprC]
+                                        ) [ExprFactor]
+                                      ) [TermS]
+                                    ) [ExprC]
+                                  ) [AssignDesign]
+                                ) [DesStatement]
+                              ) [Statements]
+                              PrintStatementNoArg(
+                                ExprS(
+                                  Positive(
+                                  ) [Positive]
+                                  TermS(
+                                    DesignatorFactor(
+                                      SingleDesignator(
+                                       bodovi
+                                      ) [SingleDesignator]
+                                    ) [DesignatorFactor]
+                                  ) [TermS]
+                                ) [ExprS]
+                              ) [PrintStatementNoArg]
+                            ) [Statements]
+                            ReadStatement(
+                              SingleDesignator(
+                               bodovi
+                              ) [SingleDesignator]
+                            ) [ReadStatement]
+                          ) [Statements]
+                          PrintStatementNoArg(
+                            ExprS(
+                              Positive(
+                              ) [Positive]
+                              TermS(
+                                DesignatorFactor(
+                                  SingleDesignator(
+                                   bodovi
+                                  ) [SingleDesignator]
+                                ) [DesignatorFactor]
+                              ) [TermS]
+                            ) [ExprS]
+                          ) [PrintStatementNoArg]
+                        ) [Statements]
+                        DesStatement(
+                          DesignatorINC(
+                            SingleDesignator(
+                             bodovi
+                            ) [SingleDesignator]
+                          ) [DesignatorINC]
+                        ) [DesStatement]
+                      ) [Statements]
+                      GotoStatement(
+                       labela1
+                      ) [GotoStatement]
+                    ) [Statements]
+                    DesStatement(
+                      AssignDesign(
+                        SingleDesignator(
+                         bodovi
+                        ) [SingleDesignator]
+                        ExprS(
+                          Positive(
+                          ) [Positive]
+                          TermC(
+                            TermS(
+                              DesignatorFactor(
+                                SingleDesignator(
+                                 bodovi
+                                ) [SingleDesignator]
+                              ) [DesignatorFactor]
+                            ) [TermS]
+                            MulOperator(
+                            ) [MulOperator]
+                            NumFactor(
+                             2
+                            ) [NumFactor]
+                          ) [TermC]
+                        ) [ExprS]
+                      ) [AssignDesign]
+                    ) [DesStatement]
+                  ) [Statements]
+                  DesStatement(
+                    DesignatorDEC(
+                      SingleDesignator(
+                       bodovi
+                      ) [SingleDesignator]
+                    ) [DesignatorDEC]
+                  ) [DesStatement]
+                ) [Statements]
+                LabelTarget(
+                 labela1
+                ) [LabelTarget]
+                DesStatement(
+                  AssignDesign(
+                    SingleDesignator(
+                     bodovi
+                    ) [SingleDesignator]
+                    ExprC(
+                      ExprS(
+                        Positive(
+                        ) [Positive]
+                        TermS(
+                          DesignatorFactor(
+                            SingleDesignator(
+                             bodovi
+                            ) [SingleDesignator]
+                          ) [DesignatorFactor]
+                        ) [TermS]
+                      ) [ExprS]
+                      PlusOperator(
+                      ) [PlusOperator]
+                      TermS(
+                        NumFactor(
+                         3
+                        ) [NumFactor]
+                      ) [TermS]
+                    ) [ExprC]
+                  ) [AssignDesign]
+                ) [DesStatement]
+              ) [Statementslistt]
+              PrintStatementNoArg(
+                ExprS(
+                  Positive(
+                  ) [Positive]
+                  TermS(
+                    DesignatorFactor(
+                      SingleDesignator(
+                       bodovi
+                      ) [SingleDesignator]
+                    ) [DesignatorFactor]
+                  ) [TermS]
+                ) [ExprS]
+              ) [PrintStatementNoArg]
+            ) [Statements]
+            GotoStatement(
+             labelaminus
+            ) [GotoStatement]
+          ) [Statements]
+          PrintStatementNoArg(
+            ExprS(
+              Positive(
+              ) [Positive]
+              TermS(
+                CharFactor(
+                 +
+                ) [CharFactor]
+              ) [TermS]
+            ) [ExprS]
+          ) [PrintStatementNoArg]
+        ) [Statements]
+        LabelTarget(
+         labelaminus
+        ) [LabelTarget]
+        PrintStatementNoArg(
+          ExprS(
+            Positive(
+            ) [Positive]
+            TermS(
+              CharFactor(
+               -
+              ) [CharFactor]
+            ) [TermS]
+          ) [ExprS]
+        ) [PrintStatementNoArg]
+      ) [Statementslistt]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  20:03:03,912 - ===================================
+INFO  20:03:03,917 - Deklarisana je promenljiva niza : niz na liniji 9
+INFO  20:03:03,917 - Deklarisana je promenljiva niza : nizch na liniji 10
+INFO  20:03:03,917 - Obradjuje se funkcija : main na liniji 13
+INFO  20:03:03,917 - Deklarisana je promenljiva : bodovitipa1 na liniji 14

@@ -1,0 +1,244 @@
+package rs.ac.bg.etf.pp1;
+
+import java_cup.runtime.*;
+import org.apache.log4j.*;
+import rs.ac.bg.etf.pp1.ast.*;
+
+parser code {:
+
+	boolean errorDetected;
+	
+	Logger log = Logger.getLogger(getClass());
+   
+   
+    // slede redefinisani metodi za prijavu gresaka radi izmene teksta poruke
+     
+     
+     //	kad ne moze da se nastavi parsiranje
+    public void report_fatal_error(String message, Object info) throws java.lang.Exception {
+      done_parsing();
+      report_error(message, info);
+    }
+  
+  	//prijava greske i zaustavlja se parsiranje
+    public void syntax_error(Symbol cur_token) {
+        report_error("\nSintaksna greska", cur_token);
+    }
+  
+    public void unrecovered_syntax_error(Symbol cur_token) throws java.lang.Exception {
+        report_fatal_error("Fatalna greska, parsiranje se ne moze nastaviti", cur_token);
+    }
+
+    public void report_error(String message, Object info) {
+    	errorDetected = true;
+    	StringBuilder msg = new StringBuilder(message); 
+    	if (info instanceof Symbol)
+            msg.append (" na liniji ").append(((Symbol)info).left);
+        log.error(msg.toString());
+    }
+
+
+:}
+
+init with {:
+	errorDetected = false;
+:}
+
+scan with {:
+	Symbol s = this.getScanner().next_token();
+	if (s != null && s.value != null) 
+		log.info(s.toString() + " " + s.value.toString());
+	return s;
+:}
+
+terminal PROG, LBRACE, RBRACE, SEMI, COMMA,EQUAL, LSQUARE,RSQUARE, INC, DEC, COLON;
+terminal LPAREN, RPAREN, MUL, DIV, MOD, PLUS, MINUS, SAME, NOTSAME, G, L, GEQ, LEQ, NEW;
+terminal CONST, VOID, READ,PRINT, GOTO;
+
+terminal String IDENT;
+terminal Integer NUM_CONST;
+terminal Character CHAR_CONST;
+terminal String BOOL_CONST;
+
+nonterminal ItemDeclList, VarDeclist, VarMultipleList, VarSingle, ArrayDecl, FormPars, FormalParamList;
+nonterminal ItemDecl, ConstDecl, ConstMultipleList, SingleConst, MethodDeclList, StatementList, Addop, Line, Label;
+nonterminal FormalParamDecl, Statement, ActualPars, ActualParamList, MinusOption, Relop, Mulop, DesignatorStatement, DesignatorArr;
+
+nonterminal rs.etf.pp1.symboltable.concepts.Obj ProgName, Program, MethodDecl, MethodTypeName, Designator;
+nonterminal rs.etf.pp1.symboltable.concepts.Struct Type, Expr, Factor, Term;
+
+Program ::= (Program) PROG ProgName:p ItemDeclList LBRACE MethodDeclList RBRACE;		
+
+ProgName ::= (ProgName) IDENT:progName;
+
+ItemDeclList ::= (ItemDeclarations) ItemDeclList ItemDecl
+				 | 
+				 (NoItemDecl) /* epsilon */
+				 ;
+
+ItemDecl ::= (Constant)ConstDecl
+			 |
+			 (VarsDec)VarDeclist
+			 ;	
+					
+ConstDecl ::= (ConstDecl) CONST Type ConstMultipleList SEMI;
+
+ConstMultipleList ::= (MultipleConst) ConstMultipleList COMMA SingleConst
+					  |
+					  (OneConst) SingleConst
+					  ;
+				
+SingleConst ::= (SingleNumConst) IDENT:constName EQUAL NUM_CONST:constValue
+				|
+				(SingleCharConst)IDENT:charName EQUAL CHAR_CONST:charValue
+				|
+				(SingleBoolConst)IDENT:boolName EQUAL BOOL_CONST:boolValue
+				;
+						
+VarDeclist ::= (SingleVar) Type:varType VarMultipleList SEMI
+			   |
+		 	   (VarDeclError) error SEMI:l
+			   {: parser.report_error("Izvrsen oporavak do ; u liniji " + lleft, null); :}
+			   ;
+VarMultipleList ::= (VarListV) VarMultipleList COMMA VarSingle
+					| 
+					(VarListArr) VarMultipleList COMMA ArrayDecl
+					|
+					(ArrVarDecl) ArrayDecl
+					|
+					(SimpleVar) VarSingle
+					;
+								
+VarSingle ::= (VarSingle) IDENT:varName;
+
+ArrayDecl ::= (ArrVar) IDENT:arrName LSQUARE RSQUARE;
+
+MethodDeclList ::= (MethodDeclarations) MethodDeclList MethodDecl
+				   |
+				   (NoMethodDecl) /* epsilon */
+				   ;
+
+MethodDecl ::= (MethodDecl) MethodTypeName LPAREN FormPars RPAREN ItemDeclList LBRACE StatementList RBRACE;
+
+MethodTypeName ::= (MethodTypeName) VOID IDENT:methName;
+
+FormPars ::= (FormParams) FormalParamList
+		     |
+		     (NoFormParam) /* epsilon */
+		     ;
+		  
+FormalParamList ::= (FormalParamDecls) FormalParamList COMMA FormalParamDecl
+				    |
+				    (SingleFormalParamDecl) FormalParamDecl
+				    ;
+				
+StatementList ::= (Statements) StatementList Statement
+				|
+				(Statementslistt) StatementList Label COLON Statement
+				|
+				(StatementJedini) Statement
+				|
+				(NoStmtLabl) Label COLON Statement
+				;
+				
+Type ::= (Type) IDENT:typeName;
+
+Expr ::= (ExprC) Expr:a Addop Term:b
+			|
+			(ExprS) MinusOption Term
+			;
+			
+Term ::= (TermC) Term:a Mulop Factor:b
+			|
+			(TermS) Factor:t
+			;
+			
+
+Factor ::=  (NumFactor) NUM_CONST
+			|
+			(CharFactor) CHAR_CONST
+			|
+			(BoolFactor) BOOL_CONST
+			|
+			(NewFactor) NEW Type LSQUARE Expr RSQUARE
+			|
+			(ExprFactor) LPAREN Expr RPAREN
+			|
+			(DesignatorFactor) Designator
+			;
+		
+ActualPars ::= (Actuals) ActualParamList
+			|
+			(NoActuals) /* epsilon */
+			;
+		
+ActualParamList ::= (ActualParams) ActualParamList COMMA Expr
+				|
+				(ActualParam) Expr
+				;
+		
+Mulop ::= (MulOperator) MUL
+		   	|
+			(ModOperator) MOD
+			|
+			(DivOperator) DIV
+			;
+		
+Addop ::= (PlusOperator) PLUS
+			|
+			(MinusOperator) MINUS
+			;
+
+Relop ::=(SameRelOp) SAME
+		| 
+		(NotSameRelOp) NOTSAME
+		| 
+		(GreaterRelOp) G
+		| 
+		(GEQRelOp) GEQ
+		| 
+		(LowerRelOp) L
+		| 
+		(LEQRelOp) LEQ
+		;
+		
+MinusOption ::= (Negative) MINUS
+			|
+			(Positive) /* epsilon */
+			;
+
+Label ::= (LabelTarget)IDENT:name;
+
+Statement ::= (DesStatement) DesignatorStatement SEMI
+          	  	|
+		   	  	(ErrorStmt) error SEMI:l
+		    	{: parser.report_error("Izvrsen oporavak do ; u liniji " + lleft, null);  :}
+           		|
+				(ReadStatement) READ LPAREN Designator RPAREN SEMI
+				|
+				(PrintStatementNoArg) PRINT LPAREN Expr RPAREN SEMI
+				|
+				(PrintStatementWArgs) PRINT LPAREN Expr COMMA NUM_CONST RPAREN SEMI
+				|
+				(GotoStatement) GOTO IDENT:gotoLabela SEMI
+		    	|
+		    	(StatementsMore) LBRACE StatementList RBRACE
+				|
+		   		(ProcCall) Designator:func LPAREN ActualPars RPAREN SEMI
+				;
+			
+
+DesignatorStatement ::= (AssignDesign) Designator:a EQUAL Expr:b	
+						|
+						(DesignatorINC)Designator INC
+						|
+						(DesignatorDEC)Designator DEC
+						;
+					
+Designator ::= (SingleDesignator) IDENT:name
+				|
+				(ArrayDesignator) DesignatorArr LSQUARE Expr:desExpr RSQUARE
+				;
+
+DesignatorArr ::=(DesignatorArr) Designator;
+

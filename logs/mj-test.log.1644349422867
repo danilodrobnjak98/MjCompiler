@@ -1,0 +1,732 @@
+INFO  20:37:26,142 - Compiling source file: C:\Users\vladan\Desktop\java\MJCompiler\test\program.mj
+INFO  20:37:26,199 - #2 program
+INFO  20:37:26,199 - #32 test301
+INFO  20:37:26,199 - #27 const
+INFO  20:37:26,201 - #32 int
+INFO  20:37:26,201 - #32 nula
+INFO  20:37:26,202 - #7 =
+INFO  20:37:26,202 - #33 0
+INFO  20:37:26,203 - #5 ;
+INFO  20:37:26,203 - #27 const
+INFO  20:37:26,204 - #32 int
+INFO  20:37:26,204 - #32 jedan
+INFO  20:37:26,204 - #7 =
+INFO  20:37:26,204 - #33 1
+INFO  20:37:26,204 - #5 ;
+INFO  20:37:26,205 - #27 const
+INFO  20:37:26,205 - #32 int
+INFO  20:37:26,205 - #32 pet
+INFO  20:37:26,205 - #7 =
+INFO  20:37:26,205 - #33 5
+INFO  20:37:26,205 - #5 ;
+INFO  20:37:26,205 - #32 int
+INFO  20:37:26,206 - #32 niz
+INFO  20:37:26,206 - #8 [
+INFO  20:37:26,206 - #9 ]
+INFO  20:37:26,206 - #5 ;
+INFO  20:37:26,207 - #32 char
+INFO  20:37:26,207 - #32 nizch
+INFO  20:37:26,207 - #8 [
+INFO  20:37:26,207 - #9 ]
+INFO  20:37:26,208 - #5 ;
+INFO  20:37:26,208 - #3 {
+INFO  20:37:26,208 - #28 void
+INFO  20:37:26,209 - #32 main
+INFO  20:37:26,209 - #13 (
+INFO  20:37:26,211 - #14 )
+INFO  20:37:26,212 - #32 int
+INFO  20:37:26,212 - #32 bodovi
+INFO  20:37:26,214 - #5 ;
+INFO  20:37:26,217 - #3 {
+INFO  20:37:26,218 - #32 bodovi
+INFO  20:37:26,219 - #7 =
+INFO  20:37:26,220 - #33 0
+INFO  20:37:26,223 - #5 ;
+INFO  20:37:26,223 - #32 bodovi
+INFO  20:37:26,224 - #10 ++
+INFO  20:37:26,224 - #5 ;
+INFO  20:37:26,224 - #32 bodovi
+INFO  20:37:26,225 - #7 =
+INFO  20:37:26,225 - #32 bodovi
+INFO  20:37:26,225 - #18 +
+ERROR 20:37:26,225 - 
+Sintaksna greska na liniji 18
+INFO  20:37:26,225 - #32 jedan
+INFO  20:37:26,225 - #5 ;
+INFO  20:37:26,226 - #32 bodovi
+INFO  20:37:26,226 - #7 =
+INFO  20:37:26,227 - #32 bodovi
+ERROR 20:37:26,227 - Izvrsen oporavak do ; u liniji 18
+INFO  20:37:26,228 - #15 *
+ERROR 20:37:26,228 - 
+Sintaksna greska na liniji 19
+INFO  20:37:26,228 - #32 pet
+INFO  20:37:26,228 - #5 ;
+INFO  20:37:26,228 - #32 bodovi
+INFO  20:37:26,229 - #11 --
+INFO  20:37:26,229 - #5 ;
+ERROR 20:37:26,229 - Izvrsen oporavak do ; u liniji 19
+INFO  20:37:26,229 - #30 print
+INFO  20:37:26,229 - #13 (
+INFO  20:37:26,230 - #32 bodovi
+INFO  20:37:26,230 - #14 )
+ERROR 20:37:26,230 - 
+Sintaksna greska na liniji 21
+INFO  20:37:26,230 - #5 ;
+INFO  20:37:26,230 - #32 niz
+INFO  20:37:26,230 - #7 =
+INFO  20:37:26,230 - #26 new
+ERROR 20:37:26,230 - Izvrsen oporavak do ; u liniji 21
+INFO  20:37:26,230 - #32 int
+INFO  20:37:26,231 - #8 [
+INFO  20:37:26,231 - #33 3
+INFO  20:37:26,231 - #9 ]
+INFO  20:37:26,231 - #5 ;
+INFO  20:37:26,232 - #32 niz
+INFO  20:37:26,232 - #8 [
+INFO  20:37:26,233 - #32 nula
+INFO  20:37:26,233 - #9 ]
+ERROR 20:37:26,233 - 
+Sintaksna greska na liniji 25
+INFO  20:37:26,234 - #7 =
+INFO  20:37:26,234 - #32 jedan
+INFO  20:37:26,234 - #5 ;
+INFO  20:37:26,234 - #32 niz
+INFO  20:37:26,234 - #8 [
+INFO  20:37:26,234 - #33 1
+ERROR 20:37:26,234 - Izvrsen oporavak do ; u liniji 25
+INFO  20:37:26,234 - #9 ]
+INFO  20:37:26,234 - #7 =
+INFO  20:37:26,234 - #33 2
+INFO  20:37:26,235 - #5 ;
+INFO  20:37:26,235 - #32 niz
+INFO  20:37:26,235 - #8 [
+INFO  20:37:26,235 - #32 niz
+INFO  20:37:26,235 - #8 [
+INFO  20:37:26,236 - #32 jedan
+INFO  20:37:26,236 - #9 ]
+ERROR 20:37:26,236 - 
+Sintaksna greska na liniji 27
+INFO  20:37:26,236 - #9 ]
+INFO  20:37:26,236 - #7 =
+INFO  20:37:26,236 - #32 niz
+INFO  20:37:26,237 - #8 [
+INFO  20:37:26,237 - #32 niz
+INFO  20:37:26,237 - #8 [
+INFO  20:37:26,237 - #33 0
+INFO  20:37:26,237 - #9 ]
+INFO  20:37:26,237 - #9 ]
+INFO  20:37:26,237 - #15 *
+INFO  20:37:26,237 - #33 3
+INFO  20:37:26,237 - #5 ;
+INFO  20:37:26,237 - #32 bodovi
+INFO  20:37:26,237 - #7 =
+INFO  20:37:26,237 - #32 niz
+ERROR 20:37:26,238 - Izvrsen oporavak do ; u liniji 27
+INFO  20:37:26,238 - #8 [
+INFO  20:37:26,238 - #33 2
+INFO  20:37:26,238 - #9 ]
+INFO  20:37:26,238 - #16 /
+ERROR 20:37:26,238 - 
+Sintaksna greska na liniji 28
+INFO  20:37:26,238 - #32 niz
+INFO  20:37:26,238 - #8 [
+INFO  20:37:26,238 - #33 0
+INFO  20:37:26,238 - #9 ]
+INFO  20:37:26,238 - #5 ;
+INFO  20:37:26,239 - #30 print
+INFO  20:37:26,239 - #13 (
+INFO  20:37:26,239 - #32 bodovi
+ERROR 20:37:26,239 - Izvrsen oporavak do ; u liniji 28
+INFO  20:37:26,239 - #14 )
+ERROR 20:37:26,239 - 
+Sintaksna greska na liniji 29
+INFO  20:37:26,239 - #5 ;
+INFO  20:37:26,239 - #30 print
+INFO  20:37:26,239 - #13 (
+INFO  20:37:26,239 - #32 niz
+ERROR 20:37:26,239 - Izvrsen oporavak do ; u liniji 29
+INFO  20:37:26,239 - #8 [
+INFO  20:37:26,239 - #33 2
+INFO  20:37:26,239 - #9 ]
+INFO  20:37:26,239 - #14 )
+ERROR 20:37:26,239 - 
+Sintaksna greska na liniji 30
+INFO  20:37:26,239 - #5 ;
+INFO  20:37:26,239 - #32 nizch
+INFO  20:37:26,239 - #7 =
+INFO  20:37:26,240 - #26 new
+ERROR 20:37:26,240 - Izvrsen oporavak do ; u liniji 30
+INFO  20:37:26,240 - #32 char
+INFO  20:37:26,240 - #8 [
+INFO  20:37:26,240 - #33 3
+INFO  20:37:26,240 - #9 ]
+INFO  20:37:26,240 - #5 ;
+INFO  20:37:26,240 - #32 nizch
+INFO  20:37:26,240 - #8 [
+INFO  20:37:26,240 - #33 0
+INFO  20:37:26,240 - #9 ]
+INFO  20:37:26,240 - #7 =
+INFO  20:37:26,241 - #34 a
+INFO  20:37:26,241 - #5 ;
+INFO  20:37:26,241 - #32 nizch
+INFO  20:37:26,241 - #8 [
+INFO  20:37:26,241 - #32 jedan
+INFO  20:37:26,241 - #9 ]
+ERROR 20:37:26,241 - 
+Sintaksna greska na liniji 35
+INFO  20:37:26,241 - #7 =
+INFO  20:37:26,241 - #34 b
+INFO  20:37:26,241 - #5 ;
+INFO  20:37:26,241 - #32 nizch
+INFO  20:37:26,241 - #8 [
+INFO  20:37:26,241 - #32 pet
+ERROR 20:37:26,242 - Izvrsen oporavak do ; u liniji 35
+INFO  20:37:26,242 - #19 -
+ERROR 20:37:26,242 - 
+Sintaksna greska na liniji 36
+INFO  20:37:26,242 - #33 3
+INFO  20:37:26,242 - #9 ]
+INFO  20:37:26,242 - #7 =
+INFO  20:37:26,242 - #34 c
+INFO  20:37:26,242 - #5 ;
+INFO  20:37:26,242 - #30 print
+INFO  20:37:26,242 - #13 (
+INFO  20:37:26,242 - #32 nizch
+ERROR 20:37:26,242 - Izvrsen oporavak do ; u liniji 36
+INFO  20:37:26,243 - #8 [
+INFO  20:37:26,243 - #33 1
+INFO  20:37:26,243 - #9 ]
+INFO  20:37:26,243 - #14 )
+ERROR 20:37:26,243 - 
+Sintaksna greska na liniji 37
+INFO  20:37:26,243 - #5 ;
+INFO  20:37:26,243 - #30 print
+INFO  20:37:26,243 - #13 (
+INFO  20:37:26,243 - #32 nizch
+ERROR 20:37:26,244 - Izvrsen oporavak do ; u liniji 37
+INFO  20:37:26,244 - #8 [
+INFO  20:37:26,244 - #32 jedan
+INFO  20:37:26,244 - #15 *
+ERROR 20:37:26,244 - 
+Sintaksna greska na liniji 38
+INFO  20:37:26,244 - #33 2
+INFO  20:37:26,244 - #9 ]
+INFO  20:37:26,244 - #14 )
+INFO  20:37:26,244 - #5 ;
+INFO  20:37:26,244 - #32 bodovi
+INFO  20:37:26,245 - #7 =
+INFO  20:37:26,245 - #32 bodovi
+ERROR 20:37:26,245 - Izvrsen oporavak do ; u liniji 38
+INFO  20:37:26,245 - #18 +
+ERROR 20:37:26,245 - 
+Sintaksna greska na liniji 41
+INFO  20:37:26,245 - #13 (
+INFO  20:37:26,245 - #32 pet
+INFO  20:37:26,246 - #15 *
+INFO  20:37:26,246 - #32 jedan
+INFO  20:37:26,246 - #19 -
+INFO  20:37:26,246 - #33 1
+INFO  20:37:26,246 - #14 )
+INFO  20:37:26,246 - #15 *
+INFO  20:37:26,246 - #32 bodovi
+INFO  20:37:26,246 - #19 -
+INFO  20:37:26,246 - #13 (
+INFO  20:37:26,247 - #33 3
+INFO  20:37:26,247 - #17 %
+INFO  20:37:26,247 - #33 2
+INFO  20:37:26,247 - #18 +
+INFO  20:37:26,247 - #33 3
+INFO  20:37:26,247 - #15 *
+INFO  20:37:26,247 - #33 2
+INFO  20:37:26,247 - #19 -
+INFO  20:37:26,248 - #33 3
+INFO  20:37:26,248 - #14 )
+INFO  20:37:26,248 - #5 ;
+INFO  20:37:26,249 - #30 print
+INFO  20:37:26,249 - #13 (
+INFO  20:37:26,249 - #32 bodovi
+ERROR 20:37:26,249 - Izvrsen oporavak do ; u liniji 41
+INFO  20:37:26,249 - #14 )
+ERROR 20:37:26,249 - 
+Sintaksna greska na liniji 42
+INFO  20:37:26,249 - #5 ;
+INFO  20:37:26,250 - #29 read
+INFO  20:37:26,250 - #13 (
+INFO  20:37:26,250 - #32 bodovi
+ERROR 20:37:26,250 - Izvrsen oporavak do ; u liniji 42
+INFO  20:37:26,250 - #14 )
+INFO  20:37:26,250 - #5 ;
+INFO  20:37:26,250 - #30 print
+INFO  20:37:26,250 - #13 (
+INFO  20:37:26,250 - #32 bodovi
+INFO  20:37:26,250 - #14 )
+ERROR 20:37:26,250 - 
+Sintaksna greska na liniji 45
+INFO  20:37:26,251 - #5 ;
+INFO  20:37:26,251 - #32 bodovi
+INFO  20:37:26,251 - #10 ++
+INFO  20:37:26,251 - #5 ;
+ERROR 20:37:26,251 - Izvrsen oporavak do ; u liniji 45
+INFO  20:37:26,251 - #31 goto
+INFO  20:37:26,252 - #32 labela1
+INFO  20:37:26,252 - #5 ;
+INFO  20:37:26,252 - #32 bodovi
+INFO  20:37:26,252 - #7 =
+INFO  20:37:26,252 - #32 bodovi
+INFO  20:37:26,252 - #15 *
+ERROR 20:37:26,253 - 
+Sintaksna greska na liniji 49
+INFO  20:37:26,253 - #33 2
+INFO  20:37:26,253 - #5 ;
+INFO  20:37:26,253 - #32 bodovi
+INFO  20:37:26,253 - #11 --
+INFO  20:37:26,253 - #5 ;
+ERROR 20:37:26,253 - Izvrsen oporavak do ; u liniji 49
+INFO  20:37:26,253 - #32 labela1
+INFO  20:37:26,254 - #12 :
+INFO  20:37:26,254 - #32 bodovi
+INFO  20:37:26,254 - #7 =
+INFO  20:37:26,254 - #32 bodovi
+INFO  20:37:26,254 - #18 +
+ERROR 20:37:26,254 - 
+Sintaksna greska na liniji 52
+INFO  20:37:26,254 - #33 3
+INFO  20:37:26,254 - #5 ;
+INFO  20:37:26,254 - #30 print
+INFO  20:37:26,254 - #13 (
+INFO  20:37:26,254 - #32 bodovi
+ERROR 20:37:26,254 - Izvrsen oporavak do ; u liniji 52
+INFO  20:37:26,255 - #14 )
+ERROR 20:37:26,255 - 
+Sintaksna greska na liniji 53
+INFO  20:37:26,255 - #5 ;
+INFO  20:37:26,255 - #31 goto
+INFO  20:37:26,255 - #32 labelaminus
+INFO  20:37:26,255 - #5 ;
+ERROR 20:37:26,255 - Izvrsen oporavak do ; u liniji 53
+INFO  20:37:26,255 - #30 print
+INFO  20:37:26,255 - #13 (
+INFO  20:37:26,255 - #34 +
+INFO  20:37:26,255 - #14 )
+INFO  20:37:26,255 - #5 ;
+INFO  20:37:26,256 - #32 labelaminus
+INFO  20:37:26,256 - #12 :
+INFO  20:37:26,256 - #30 print
+INFO  20:37:26,256 - #13 (
+INFO  20:37:26,256 - #34 -
+INFO  20:37:26,256 - #14 )
+INFO  20:37:26,256 - #5 ;
+INFO  20:37:26,256 - #4 }
+INFO  20:37:26,256 - #4 }
+INFO  20:37:26,267 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  ItemDeclarations(
+    ItemDeclarations(
+      ItemDeclarations(
+        ItemDeclarations(
+          ItemDeclarations(
+            NoItemDecl(
+            ) [NoItemDecl]
+            Constant(
+              ConstDecl(
+                Type(
+                 int
+                ) [Type]
+                OneConst(
+                  SingleNumConst(
+                   nula
+                   0
+                  ) [SingleNumConst]
+                ) [OneConst]
+              ) [ConstDecl]
+            ) [Constant]
+          ) [ItemDeclarations]
+          Constant(
+            ConstDecl(
+              Type(
+               int
+              ) [Type]
+              OneConst(
+                SingleNumConst(
+                 jedan
+                 1
+                ) [SingleNumConst]
+              ) [OneConst]
+            ) [ConstDecl]
+          ) [Constant]
+        ) [ItemDeclarations]
+        Constant(
+          ConstDecl(
+            Type(
+             int
+            ) [Type]
+            OneConst(
+              SingleNumConst(
+               pet
+               5
+              ) [SingleNumConst]
+            ) [OneConst]
+          ) [ConstDecl]
+        ) [Constant]
+      ) [ItemDeclarations]
+      VarsDec(
+        SingleVar(
+          Type(
+           int
+          ) [Type]
+          ArrVarDecl(
+            ArrVar(
+             niz
+            ) [ArrVar]
+          ) [ArrVarDecl]
+        ) [SingleVar]
+      ) [VarsDec]
+    ) [ItemDeclarations]
+    VarsDec(
+      SingleVar(
+        Type(
+         char
+        ) [Type]
+        ArrVarDecl(
+          ArrVar(
+           nizch
+          ) [ArrVar]
+        ) [ArrVarDecl]
+      ) [SingleVar]
+    ) [VarsDec]
+  ) [ItemDeclarations]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodTypeName(
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      ItemDeclarations(
+        NoItemDecl(
+        ) [NoItemDecl]
+        VarsDec(
+          SingleVar(
+            Type(
+             int
+            ) [Type]
+            SimpleVar(
+              VarSingle(
+               bodovi
+              ) [VarSingle]
+            ) [SimpleVar]
+          ) [SingleVar]
+        ) [VarsDec]
+      ) [ItemDeclarations]
+      Statementslistt(
+        Statements(
+          Statements(
+            Statements(
+              Statementslistt(
+                Statements(
+                  Statements(
+                    Statements(
+                      Statements(
+                        Statements(
+                          Statements(
+                            Statements(
+                              Statements(
+                                Statements(
+                                  Statements(
+                                    Statements(
+                                      Statements(
+                                        Statements(
+                                          Statements(
+                                            Statements(
+                                              Statements(
+                                                Statements(
+                                                  Statements(
+                                                    Statements(
+                                                      Statements(
+                                                        Statements(
+                                                          Statements(
+                                                            Statements(
+                                                              Statements(
+                                                                Statements(
+                                                                  Statements(
+                                                                    StatementJedini(
+                                                                      DesStatement(
+                                                                        AssignDesign(
+                                                                          SingleDesignator(
+                                                                           bodovi
+                                                                          ) [SingleDesignator]
+                                                                          ExprS(
+                                                                            Positive(
+                                                                            ) [Positive]
+                                                                            TermS(
+                                                                              NumFactor(
+                                                                               0
+                                                                              ) [NumFactor]
+                                                                            ) [TermS]
+                                                                          ) [ExprS]
+                                                                        ) [AssignDesign]
+                                                                      ) [DesStatement]
+                                                                    ) [StatementJedini]
+                                                                    DesStatement(
+                                                                      DesignatorINC(
+                                                                        SingleDesignator(
+                                                                         bodovi
+                                                                        ) [SingleDesignator]
+                                                                      ) [DesignatorINC]
+                                                                    ) [DesStatement]
+                                                                  ) [Statements]
+                                                                  ErrorStmt(
+                                                                  ) [ErrorStmt]
+                                                                ) [Statements]
+                                                                ErrorStmt(
+                                                                ) [ErrorStmt]
+                                                              ) [Statements]
+                                                              DesStatement(
+                                                                DesignatorDEC(
+                                                                  SingleDesignator(
+                                                                   bodovi
+                                                                  ) [SingleDesignator]
+                                                                ) [DesignatorDEC]
+                                                              ) [DesStatement]
+                                                            ) [Statements]
+                                                            ErrorStmt(
+                                                            ) [ErrorStmt]
+                                                          ) [Statements]
+                                                          DesStatement(
+                                                            AssignDesign(
+                                                              SingleDesignator(
+                                                               niz
+                                                              ) [SingleDesignator]
+                                                              ExprS(
+                                                                Positive(
+                                                                ) [Positive]
+                                                                TermS(
+                                                                  NewFactor(
+                                                                    Type(
+                                                                     int
+                                                                    ) [Type]
+                                                                    ExprS(
+                                                                      Positive(
+                                                                      ) [Positive]
+                                                                      TermS(
+                                                                        NumFactor(
+                                                                         3
+                                                                        ) [NumFactor]
+                                                                      ) [TermS]
+                                                                    ) [ExprS]
+                                                                  ) [NewFactor]
+                                                                ) [TermS]
+                                                              ) [ExprS]
+                                                            ) [AssignDesign]
+                                                          ) [DesStatement]
+                                                        ) [Statements]
+                                                        ErrorStmt(
+                                                        ) [ErrorStmt]
+                                                      ) [Statements]
+                                                      DesStatement(
+                                                        AssignDesign(
+                                                          ArrayDesignator(
+                                                            DesignatorArr(
+                                                              SingleDesignator(
+                                                               niz
+                                                              ) [SingleDesignator]
+                                                            ) [DesignatorArr]
+                                                            ExprS(
+                                                              Positive(
+                                                              ) [Positive]
+                                                              TermS(
+                                                                NumFactor(
+                                                                 1
+                                                                ) [NumFactor]
+                                                              ) [TermS]
+                                                            ) [ExprS]
+                                                          ) [ArrayDesignator]
+                                                          ExprS(
+                                                            Positive(
+                                                            ) [Positive]
+                                                            TermS(
+                                                              NumFactor(
+                                                               2
+                                                              ) [NumFactor]
+                                                            ) [TermS]
+                                                          ) [ExprS]
+                                                        ) [AssignDesign]
+                                                      ) [DesStatement]
+                                                    ) [Statements]
+                                                    ErrorStmt(
+                                                    ) [ErrorStmt]
+                                                  ) [Statements]
+                                                  ErrorStmt(
+                                                  ) [ErrorStmt]
+                                                ) [Statements]
+                                                ErrorStmt(
+                                                ) [ErrorStmt]
+                                              ) [Statements]
+                                              ErrorStmt(
+                                              ) [ErrorStmt]
+                                            ) [Statements]
+                                            DesStatement(
+                                              AssignDesign(
+                                                SingleDesignator(
+                                                 nizch
+                                                ) [SingleDesignator]
+                                                ExprS(
+                                                  Positive(
+                                                  ) [Positive]
+                                                  TermS(
+                                                    NewFactor(
+                                                      Type(
+                                                       char
+                                                      ) [Type]
+                                                      ExprS(
+                                                        Positive(
+                                                        ) [Positive]
+                                                        TermS(
+                                                          NumFactor(
+                                                           3
+                                                          ) [NumFactor]
+                                                        ) [TermS]
+                                                      ) [ExprS]
+                                                    ) [NewFactor]
+                                                  ) [TermS]
+                                                ) [ExprS]
+                                              ) [AssignDesign]
+                                            ) [DesStatement]
+                                          ) [Statements]
+                                          DesStatement(
+                                            AssignDesign(
+                                              ArrayDesignator(
+                                                DesignatorArr(
+                                                  SingleDesignator(
+                                                   nizch
+                                                  ) [SingleDesignator]
+                                                ) [DesignatorArr]
+                                                ExprS(
+                                                  Positive(
+                                                  ) [Positive]
+                                                  TermS(
+                                                    NumFactor(
+                                                     0
+                                                    ) [NumFactor]
+                                                  ) [TermS]
+                                                ) [ExprS]
+                                              ) [ArrayDesignator]
+                                              ExprS(
+                                                Positive(
+                                                ) [Positive]
+                                                TermS(
+                                                  CharFactor(
+                                                   a
+                                                  ) [CharFactor]
+                                                ) [TermS]
+                                              ) [ExprS]
+                                            ) [AssignDesign]
+                                          ) [DesStatement]
+                                        ) [Statements]
+                                        ErrorStmt(
+                                        ) [ErrorStmt]
+                                      ) [Statements]
+                                      ErrorStmt(
+                                      ) [ErrorStmt]
+                                    ) [Statements]
+                                    ErrorStmt(
+                                    ) [ErrorStmt]
+                                  ) [Statements]
+                                  ErrorStmt(
+                                  ) [ErrorStmt]
+                                ) [Statements]
+                                ErrorStmt(
+                                ) [ErrorStmt]
+                              ) [Statements]
+                              ErrorStmt(
+                              ) [ErrorStmt]
+                            ) [Statements]
+                            ReadStatement(
+                              SingleDesignator(
+                               bodovi
+                              ) [SingleDesignator]
+                            ) [ReadStatement]
+                          ) [Statements]
+                          ErrorStmt(
+                          ) [ErrorStmt]
+                        ) [Statements]
+                        DesStatement(
+                          DesignatorINC(
+                            SingleDesignator(
+                             bodovi
+                            ) [SingleDesignator]
+                          ) [DesignatorINC]
+                        ) [DesStatement]
+                      ) [Statements]
+                      GotoStatement(
+                        LabelTarget(
+                         labela1
+                        ) [LabelTarget]
+                      ) [GotoStatement]
+                    ) [Statements]
+                    ErrorStmt(
+                    ) [ErrorStmt]
+                  ) [Statements]
+                  DesStatement(
+                    DesignatorDEC(
+                      SingleDesignator(
+                       bodovi
+                      ) [SingleDesignator]
+                    ) [DesignatorDEC]
+                  ) [DesStatement]
+                ) [Statements]
+                LabelTarget(
+                 labela1
+                ) [LabelTarget]
+                ErrorStmt(
+                ) [ErrorStmt]
+              ) [Statementslistt]
+              ErrorStmt(
+              ) [ErrorStmt]
+            ) [Statements]
+            GotoStatement(
+              LabelTarget(
+               labelaminus
+              ) [LabelTarget]
+            ) [GotoStatement]
+          ) [Statements]
+          PrintStatementNoArg(
+            ExprS(
+              Positive(
+              ) [Positive]
+              TermS(
+                CharFactor(
+                 +
+                ) [CharFactor]
+              ) [TermS]
+            ) [ExprS]
+          ) [PrintStatementNoArg]
+        ) [Statements]
+        LabelTarget(
+         labelaminus
+        ) [LabelTarget]
+        PrintStatementNoArg(
+          ExprS(
+            Positive(
+            ) [Positive]
+            TermS(
+              CharFactor(
+               -
+              ) [CharFactor]
+            ) [TermS]
+          ) [ExprS]
+        ) [PrintStatementNoArg]
+      ) [Statementslistt]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  20:37:26,268 - ===================================
+INFO  20:37:26,271 -  Print count calls = 0
+INFO  20:37:26,271 -  Deklarisanih promenljivih ima = 0
+INFO  20:37:26,271 - ===================================
+ERROR 20:37:26,271 - Parsiranje NIJE uspesno zavrseno!

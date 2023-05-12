@@ -1,0 +1,277 @@
+INFO  20:32:21,481 - Compiling source file: C:\Users\vladan\Desktop\java\MJCompiler\test\program.mj
+INFO  20:32:21,535 - #2 program
+INFO  20:32:21,535 - #32 MJProgram
+INFO  20:32:21,536 - #32 int
+INFO  20:32:21,537 - #32 x
+INFO  20:32:21,538 - #5 ;
+INFO  20:32:21,539 - #32 int
+INFO  20:32:21,539 - #32 y
+INFO  20:32:21,539 - #5 ;
+INFO  20:32:21,539 - #3 {
+INFO  20:32:21,540 - #28 void
+INFO  20:32:21,541 - #32 k
+INFO  20:32:21,542 - #13 (
+INFO  20:32:21,544 - #14 )
+INFO  20:32:21,545 - #32 int
+INFO  20:32:21,545 - #32 c
+INFO  20:32:21,546 - #5 ;
+INFO  20:32:21,546 - #3 {
+INFO  20:32:21,547 - #32 c
+INFO  20:32:21,548 - #7 =
+INFO  20:32:21,548 - #33 2
+INFO  20:32:21,549 - #5 ;
+INFO  20:32:21,550 - #30 print
+INFO  20:32:21,550 - #13 (
+INFO  20:32:21,551 - #33 0
+INFO  20:32:21,551 - #14 )
+INFO  20:32:21,551 - #5 ;
+INFO  20:32:21,551 - #4 }
+INFO  20:32:21,551 - #28 void
+INFO  20:32:21,553 - #32 main
+INFO  20:32:21,553 - #13 (
+INFO  20:32:21,553 - #14 )
+INFO  20:32:21,553 - #3 {
+INFO  20:32:21,553 - #32 x
+INFO  20:32:21,553 - #7 =
+INFO  20:32:21,553 - #33 3
+INFO  20:32:21,553 - #5 ;
+INFO  20:32:21,554 - #30 print
+INFO  20:32:21,554 - #13 (
+INFO  20:32:21,554 - #33 1
+INFO  20:32:21,554 - #14 )
+INFO  20:32:21,554 - #5 ;
+INFO  20:32:21,555 - #32 y
+INFO  20:32:21,555 - #7 =
+INFO  20:32:21,556 - #33 4
+INFO  20:32:21,556 - #18 +
+INFO  20:32:21,556 - #33 9
+INFO  20:32:21,558 - #18 +
+INFO  20:32:21,558 - #32 k
+INFO  20:32:21,558 - #13 (
+INFO  20:32:21,558 - #14 )
+INFO  20:32:21,560 - #5 ;
+INFO  20:32:21,561 - #30 print
+INFO  20:32:21,561 - #13 (
+INFO  20:32:21,562 - #32 x
+INFO  20:32:21,562 - #14 )
+ERROR 20:32:21,562 - 
+Sintaksna greska na liniji 20
+INFO  20:32:21,562 - #5 ;
+INFO  20:32:21,562 - #32 k
+INFO  20:32:21,562 - #13 (
+INFO  20:32:21,563 - #14 )
+ERROR 20:32:21,564 - Izvrsen oporavak do ; u liniji 20
+INFO  20:32:21,565 - #5 ;
+INFO  20:32:21,565 - #30 print
+INFO  20:32:21,565 - #13 (
+INFO  20:32:21,566 - #33 4
+INFO  20:32:21,566 - #14 )
+INFO  20:32:21,566 - #5 ;
+INFO  20:32:21,566 - #4 }
+INFO  20:32:21,566 - #4 }
+INFO  20:32:21,575 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  ItemDeclarations(
+    ItemDeclarations(
+      NoItemDecl(
+      ) [NoItemDecl]
+      VarsDec(
+        SingleVar(
+          Type(
+           int
+          ) [Type]
+          SimpleVar(
+            VarSingle(
+             x
+            ) [VarSingle]
+          ) [SimpleVar]
+        ) [SingleVar]
+      ) [VarsDec]
+    ) [ItemDeclarations]
+    VarsDec(
+      SingleVar(
+        Type(
+         int
+        ) [Type]
+        SimpleVar(
+          VarSingle(
+           y
+          ) [VarSingle]
+        ) [SimpleVar]
+      ) [SingleVar]
+    ) [VarsDec]
+  ) [ItemDeclarations]
+  MethodDeclarations(
+    MethodDeclarations(
+      NoMethodDecl(
+      ) [NoMethodDecl]
+      MethodDecl(
+        MethodTypeName(
+         k
+        ) [MethodTypeName]
+        NoFormParam(
+        ) [NoFormParam]
+        ItemDeclarations(
+          NoItemDecl(
+          ) [NoItemDecl]
+          VarsDec(
+            SingleVar(
+              Type(
+               int
+              ) [Type]
+              SimpleVar(
+                VarSingle(
+                 c
+                ) [VarSingle]
+              ) [SimpleVar]
+            ) [SingleVar]
+          ) [VarsDec]
+        ) [ItemDeclarations]
+        Statements(
+          StatementJedini(
+            DesStatement(
+              AssignDesign(
+                SingleDesignator(
+                 c
+                ) [SingleDesignator]
+                ExprS(
+                  Positive(
+                  ) [Positive]
+                  TermS(
+                    NumFactor(
+                     2
+                    ) [NumFactor]
+                  ) [TermS]
+                ) [ExprS]
+              ) [AssignDesign]
+            ) [DesStatement]
+          ) [StatementJedini]
+          PrintStatementNoArg(
+            ExprS(
+              Positive(
+              ) [Positive]
+              TermS(
+                NumFactor(
+                 0
+                ) [NumFactor]
+              ) [TermS]
+            ) [ExprS]
+          ) [PrintStatementNoArg]
+        ) [Statements]
+      ) [MethodDecl]
+    ) [MethodDeclarations]
+    MethodDecl(
+      MethodTypeName(
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      NoItemDecl(
+      ) [NoItemDecl]
+      Statements(
+        Statements(
+          Statements(
+            Statements(
+              Statements(
+                StatementJedini(
+                  DesStatement(
+                    AssignDesign(
+                      SingleDesignator(
+                       x
+                      ) [SingleDesignator]
+                      ExprS(
+                        Positive(
+                        ) [Positive]
+                        TermS(
+                          NumFactor(
+                           3
+                          ) [NumFactor]
+                        ) [TermS]
+                      ) [ExprS]
+                    ) [AssignDesign]
+                  ) [DesStatement]
+                ) [StatementJedini]
+                PrintStatementNoArg(
+                  ExprS(
+                    Positive(
+                    ) [Positive]
+                    TermS(
+                      NumFactor(
+                       1
+                      ) [NumFactor]
+                    ) [TermS]
+                  ) [ExprS]
+                ) [PrintStatementNoArg]
+              ) [Statements]
+              DesStatement(
+                AssignDesign(
+                  SingleDesignator(
+                   y
+                  ) [SingleDesignator]
+                  ExprC(
+                    ExprC(
+                      ExprS(
+                        Positive(
+                        ) [Positive]
+                        TermS(
+                          NumFactor(
+                           4
+                          ) [NumFactor]
+                        ) [TermS]
+                      ) [ExprS]
+                      PlusOperator(
+                      ) [PlusOperator]
+                      TermS(
+                        NumFactor(
+                         9
+                        ) [NumFactor]
+                      ) [TermS]
+                    ) [ExprC]
+                    PlusOperator(
+                    ) [PlusOperator]
+                    TermS(
+                      FuncCall(
+                        SingleDesignator(
+                         k
+                        ) [SingleDesignator]
+                        NoActuals(
+                        ) [NoActuals]
+                      ) [FuncCall]
+                    ) [TermS]
+                  ) [ExprC]
+                ) [AssignDesign]
+              ) [DesStatement]
+            ) [Statements]
+            ErrorStmt(
+            ) [ErrorStmt]
+          ) [Statements]
+          ProcCall(
+            SingleDesignator(
+             k
+            ) [SingleDesignator]
+            NoActuals(
+            ) [NoActuals]
+          ) [ProcCall]
+        ) [Statements]
+        PrintStatementNoArg(
+          ExprS(
+            Positive(
+            ) [Positive]
+            TermS(
+              NumFactor(
+               4
+              ) [NumFactor]
+            ) [TermS]
+          ) [ExprS]
+        ) [PrintStatementNoArg]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  20:32:21,575 - ===================================
+INFO  20:32:21,579 -  Print count calls = 0
+INFO  20:32:21,579 -  Deklarisanih promenljivih ima = 0
+INFO  20:32:21,579 - ===================================
+ERROR 20:32:21,580 - Parsiranje NIJE uspesno zavrseno!

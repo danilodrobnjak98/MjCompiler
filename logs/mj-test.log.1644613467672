@@ -1,0 +1,262 @@
+INFO  22:03:40,190 - Compiling source file: C:\Users\vladan\Desktop\java\MJCompiler\test\program.mj
+INFO  22:03:40,246 - #2 program
+INFO  22:03:40,246 - #32 test301
+INFO  22:03:40,246 - #27 const
+INFO  22:03:40,247 - #32 int
+INFO  22:03:40,248 - #32 nula
+INFO  22:03:40,249 - #7 =
+INFO  22:03:40,249 - #33 0
+INFO  22:03:40,249 - #5 ;
+INFO  22:03:40,250 - #27 const
+INFO  22:03:40,251 - #32 int
+INFO  22:03:40,251 - #32 jedan
+INFO  22:03:40,251 - #7 =
+INFO  22:03:40,251 - #33 1
+INFO  22:03:40,251 - #5 ;
+INFO  22:03:40,252 - #27 const
+INFO  22:03:40,253 - #32 int
+INFO  22:03:40,253 - #32 pet
+INFO  22:03:40,253 - #7 =
+INFO  22:03:40,253 - #33 5
+INFO  22:03:40,253 - #5 ;
+INFO  22:03:40,254 - #32 int
+INFO  22:03:40,254 - #32 niz
+INFO  22:03:40,254 - #8 [
+INFO  22:03:40,255 - #9 ]
+INFO  22:03:40,255 - #5 ;
+INFO  22:03:40,255 - #32 char
+INFO  22:03:40,256 - #32 nizch
+INFO  22:03:40,256 - #8 [
+INFO  22:03:40,256 - #9 ]
+INFO  22:03:40,256 - #5 ;
+INFO  22:03:40,256 - #3 {
+INFO  22:03:40,256 - #28 void
+INFO  22:03:40,257 - #32 main
+INFO  22:03:40,258 - #13 (
+INFO  22:03:40,258 - #14 )
+INFO  22:03:40,259 - #32 int
+INFO  22:03:40,259 - #32 bodovi
+INFO  22:03:40,260 - #5 ;
+INFO  22:03:40,261 - #32 bool
+INFO  22:03:40,261 - #32 bt
+INFO  22:03:40,261 - #5 ;
+INFO  22:03:40,262 - #32 int
+INFO  22:03:40,262 - #32 a
+INFO  22:03:40,262 - #5 ;
+INFO  22:03:40,262 - #3 {
+INFO  22:03:40,262 - #30 print
+INFO  22:03:40,262 - #13 (
+INFO  22:03:40,262 - #33 1
+INFO  22:03:40,264 - #14 )
+INFO  22:03:40,265 - #5 ;
+INFO  22:03:40,265 - #31 goto
+INFO  22:03:40,266 - #32 LABELA
+INFO  22:03:40,266 - #5 ;
+INFO  22:03:40,266 - #30 print
+INFO  22:03:40,266 - #13 (
+INFO  22:03:40,267 - #33 2
+INFO  22:03:40,267 - #14 )
+INFO  22:03:40,267 - #5 ;
+INFO  22:03:40,267 - #32 LABELA
+INFO  22:03:40,268 - #12 :
+INFO  22:03:40,268 - #30 print
+INFO  22:03:40,268 - #13 (
+INFO  22:03:40,268 - #33 3
+INFO  22:03:40,269 - #14 )
+INFO  22:03:40,269 - #5 ;
+INFO  22:03:40,270 - #4 }
+INFO  22:03:40,270 - #4 }
+INFO  22:03:40,280 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  ItemDeclarations(
+    ItemDeclarations(
+      ItemDeclarations(
+        ItemDeclarations(
+          ItemDeclarations(
+            NoItemDecl(
+            ) [NoItemDecl]
+            Constant(
+              ConstDecl(
+                Type(
+                 int
+                ) [Type]
+                OneConst(
+                  SingleNumConst(
+                   nula
+                   0
+                  ) [SingleNumConst]
+                ) [OneConst]
+              ) [ConstDecl]
+            ) [Constant]
+          ) [ItemDeclarations]
+          Constant(
+            ConstDecl(
+              Type(
+               int
+              ) [Type]
+              OneConst(
+                SingleNumConst(
+                 jedan
+                 1
+                ) [SingleNumConst]
+              ) [OneConst]
+            ) [ConstDecl]
+          ) [Constant]
+        ) [ItemDeclarations]
+        Constant(
+          ConstDecl(
+            Type(
+             int
+            ) [Type]
+            OneConst(
+              SingleNumConst(
+               pet
+               5
+              ) [SingleNumConst]
+            ) [OneConst]
+          ) [ConstDecl]
+        ) [Constant]
+      ) [ItemDeclarations]
+      VarsDec(
+        SingleVar(
+          Type(
+           int
+          ) [Type]
+          ArrVarDecl(
+            ArrVar(
+             niz
+            ) [ArrVar]
+          ) [ArrVarDecl]
+        ) [SingleVar]
+      ) [VarsDec]
+    ) [ItemDeclarations]
+    VarsDec(
+      SingleVar(
+        Type(
+         char
+        ) [Type]
+        ArrVarDecl(
+          ArrVar(
+           nizch
+          ) [ArrVar]
+        ) [ArrVarDecl]
+      ) [SingleVar]
+    ) [VarsDec]
+  ) [ItemDeclarations]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodTypeName(
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      ItemDeclarations(
+        ItemDeclarations(
+          ItemDeclarations(
+            NoItemDecl(
+            ) [NoItemDecl]
+            VarsDec(
+              SingleVar(
+                Type(
+                 int
+                ) [Type]
+                SimpleVar(
+                  VarSingle(
+                   bodovi
+                  ) [VarSingle]
+                ) [SimpleVar]
+              ) [SingleVar]
+            ) [VarsDec]
+          ) [ItemDeclarations]
+          VarsDec(
+            SingleVar(
+              Type(
+               bool
+              ) [Type]
+              SimpleVar(
+                VarSingle(
+                 bt
+                ) [VarSingle]
+              ) [SimpleVar]
+            ) [SingleVar]
+          ) [VarsDec]
+        ) [ItemDeclarations]
+        VarsDec(
+          SingleVar(
+            Type(
+             int
+            ) [Type]
+            SimpleVar(
+              VarSingle(
+               a
+              ) [VarSingle]
+            ) [SimpleVar]
+          ) [SingleVar]
+        ) [VarsDec]
+      ) [ItemDeclarations]
+      Statementslistt(
+        Statements(
+          Statements(
+            StatementJedini(
+              PrintStatementNoArg(
+                ExprS(
+                  Positive(
+                  ) [Positive]
+                  TermS(
+                    NumFactor(
+                     1
+                    ) [NumFactor]
+                  ) [TermS]
+                ) [ExprS]
+              ) [PrintStatementNoArg]
+            ) [StatementJedini]
+            GotoStatement(
+             LABELA
+            ) [GotoStatement]
+          ) [Statements]
+          PrintStatementNoArg(
+            ExprS(
+              Positive(
+              ) [Positive]
+              TermS(
+                NumFactor(
+                 2
+                ) [NumFactor]
+              ) [TermS]
+            ) [ExprS]
+          ) [PrintStatementNoArg]
+        ) [Statements]
+        LabelTarget(
+         LABELA
+        ) [LabelTarget]
+        PrintStatementNoArg(
+          ExprS(
+            Positive(
+            ) [Positive]
+            TermS(
+              NumFactor(
+               3
+              ) [NumFactor]
+            ) [TermS]
+          ) [ExprS]
+        ) [PrintStatementNoArg]
+      ) [Statementslistt]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  22:03:40,280 - ===================================
+INFO  22:03:40,283 - Deklarisana je promenljiva niza : niz na liniji 9
+INFO  22:03:40,284 - Deklarisana je promenljiva niza : nizch na liniji 10
+INFO  22:03:40,284 - Obradjuje se funkcija : main na liniji 13
+INFO  22:03:40,284 - Deklarisana je promenljiva : bodovitipa1 na liniji 14
+INFO  22:03:40,284 - Deklarisana je promenljiva : bttipa1 na liniji 15
+INFO  22:03:40,284 - Deklarisana je promenljiva : atipa1 na liniji 16
+INFO  22:03:40,284 - Procitali smo labelu : LABELA na liniji 22
+INFO  22:03:40,285 -  Print count calls = 3
+INFO  22:03:40,285 -  Deklarisanih promenljivih ima = 5
+INFO  22:03:40,285 - ===================================
+INFO  22:03:40,293 - Parsiranje uspesno zavrseno!
